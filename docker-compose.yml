@@ -22,7 +22,11 @@ services:
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.dev
       DATABASE_URL: postgres://quiz:quiz@db:5432/fastquiz
-    command: python manage.py runserver 0.0.0.0:8000
+    # Açılışta migrasyonları uygular, veritabanı boşsa soru havuzunu yükler
+    command: >
+      sh -c "python manage.py migrate --noinput
+      && python manage.py seed_questions
+      && python manage.py runserver 0.0.0.0:8000"
     ports: ["8000:8000"]
     volumes:
       - .:/app

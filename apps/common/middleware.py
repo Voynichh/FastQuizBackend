@@ -7,8 +7,9 @@ HEALTH_PATH = "/api/v1/health/"
 class HealthCheckMiddleware:
     """`/api/v1/health/` isteğini en başta yanıtlar.
 
-    App Platform sağlık kontrolü iç ağdan, HTTP üzerinden ve farklı bir Host ile gelir;
-    bu yüzden ALLOWED_HOSTS ve HTTPS yönlendirmesinden önce çalışmalıdır.
+    Konteyner orkestratörlerinin ve yük dengeleyicilerin sağlık kontrolü çoğunlukla iç ağdan,
+    HTTP üzerinden ve farklı bir Host ile gelir; bu yüzden ALLOWED_HOSTS ve HTTPS
+    yönlendirmesinden önce çalışmalıdır.
     """
 
     def __init__(self, get_response):

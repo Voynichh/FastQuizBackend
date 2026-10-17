@@ -1,11 +1,9 @@
-import sentry_sdk
-
 from .base import *  # noqa: F403
 from .base import MIDDLEWARE, env
 
 DEBUG = False
 
-# TLS, App Platform'un önündeki yük dengeleyicide sonlanır.
+# TLS, uygulamanın önündeki ters proxy / yük dengeleyicide sonlanır.
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 SECURE_SSL_REDIRECT = True
 SECURE_HSTS_SECONDS = 31536000
@@ -35,6 +33,3 @@ LOGGING = {
     "handlers": {"console": {"class": "logging.StreamHandler"}},
     "root": {"handlers": ["console"], "level": "INFO"},
 }
-
-if dsn := env("SENTRY_DSN", default=""):
-    sentry_sdk.init(dsn=dsn, send_default_pii=False)

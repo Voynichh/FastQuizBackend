@@ -2,6 +2,8 @@
 
 Oct 17, 2026 · @Someone
 
+> **Kapsam notu:** Bu doküman başlangıç planıdır. Canlıya alma (Bölüm 11'deki DigitalOcean dağıtımı, `.do/app.yaml`, Sentry, staging) **kapsam dışı bırakıldı**; proje yerelde çalışan bir portföy projesidir. Güncel kararlar repoların `CLAUDE.md` dosyalarındadır.
+
 ## 1. Proje Özeti
 
 Fast Quiz, her sorunun yalnızca 5 saniyede cevaplanabildiği, üyeliksiz ve hızlı oynanan bir bilgi yarışması uygulamasıdır. Kullanıcı bir kategori seçer, 20 soruyu tek tek cevaplar, sonunda puanını görür, adını girer ve en iyi 10 skorun yer aldığı skor tablosuna bakar.

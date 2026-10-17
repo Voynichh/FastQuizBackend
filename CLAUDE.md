@@ -16,7 +16,7 @@ Frontend (Vue 3) ayrı repoda: `..\FastQuizFrontend` (bu klasörün kardeşi).
 ```
 docker compose up -d db
 .venv\Scripts\python manage.py migrate
-.venv\Scripts\python manage.py loaddata fixtures/categories.json
+.venv\Scripts\python manage.py seed_questions
 .venv\Scripts\python manage.py runserver
 .venv\Scripts\python -m pytest
 .venv\Scripts\python -m ruff check . ; .venv\Scripts\python -m ruff format .
@@ -24,7 +24,7 @@ docker compose up -d db
 `.env` için `.env.example` kopyalanır. Admin: `/yonetim/`.
 
 ## Soru havuzu
-Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanlış2, yanlış3]`). Düzenledikten sonra `.venv\Scripts\python scripts/build_fixtures.py` ile `fixtures/questions_<slug>.json` yeniden üretilir (pk'ler sabit, `loaddata` tekrar çalıştırılabilir). Yeni soruyu listenin sonuna ekle. Yükleme: `loaddata fixtures/categories.json fixtures/questions_*.json`.
+Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanlış2, yanlış3]`). Düzenledikten sonra `.venv\Scripts\python scripts/build_fixtures.py` ile `fixtures/questions_<slug>.json` yeniden üretilir (pk'ler sabit, `loaddata` tekrar çalıştırılabilir). Yeni soruyu listenin sonuna ekle. Yükleme: `manage.py seed_questions` (veritabanı boşsa yükler; `--force` ile yeniden yükler, Admin düzenlemelerini ezer).
 
 ## API notları (doküman Bölüm 6–7'ye ek kararlar)
 Şema/Swagger: `/api/v1/schema/`, `/api/v1/docs/` (statik dosyalar `drf-spectacular-sidecar` ile imajdan). Katmanlar: view → `services.py` → model; hata sınıfları `apps/common/exceptions.py`.
@@ -33,12 +33,11 @@ Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanl�
 - Puan bonusu yarım yukarı yuvarlanır (tamsayı aritmetiği). Ortalama süre: timeout = tam süre, diğerleri en fazla tam süre.
 - Sıralama: puan↓, ort. süre↑, `created_at`↑, `id`↑. `estimated_rank` kaydedilmemiş skorda eşitlikte sona koyar, kaydedilmişse gerçek sırayı verir.
 - `GET /sessions/{id}/current/` yanıtına ek olarak `total_score` döner (sayfa yenilemede skoru geri yüklemek için). Koleksiyon yanıtları sarılıdır: `{"categories": [...]}`, `{"category": slug|null, "entries": [...]}`.
-- Rate limit IP başınadır. Proxy arkasında `NUM_PROXIES` env'i doğru ayarlanmazsa (varsayılan boş = `X-Forwarded-For` başlığının tamamı) istemci başlığı taklit edebilir; App Platform'da gerçek hop sayısı doğrulanınca ayarla. 2+ instance'ta sayaçlar için paylaşımlı cache gerekir (Bölüm 11).
+- Rate limit IP başınadır. Proxy arkasında `NUM_PROXIES` env'i doğru ayarlanmazsa (varsayılan boş = `X-Forwarded-For` başlığının tamamı) istemci başlığı taklit edebilir; Yerelde proxy yok; bir ters proxy arkasına konulursa gerçek hop sayısıyla ayarla. 2+ instance'ta sayaçlar için paylaşımlı cache gerekir (Bölüm 11).
 - `abandoned` işaretleme tembeldir (oturuma bir sonraki istekte); süpürücü komut yok.
 
-## Deploy (sonraki oturum)
-Proje geneli deploy kararı ve panele girilecek değerler `..\CLAUDE.md` ("DEPLOY" bölümü) içinde. Özet: deploy `doctl` ile değil kullanıcı tarafından DigitalOcean web panelinden elle yapılacak; kullanıcı sıfırdan anlatım isteyecek. Başlamadan önce kullanıcıyla konuş, panel adımlarını alan alan anlat, kaynak/ücret oluşturan adımları kullanıcıya bırak. Prod ayarları `config/settings/prod.py`, Docker `Dockerfile`, referans `.do/app.yaml`.
+## Kapsam
+Yerelde çalışan portföy projesi; **canlıya alma iptal edildi** (bkz. `..\CLAUDE.md`). `config/settings/prod.py`, `Dockerfile`, `gunicorn.conf.py` üretim benzeri çalışma için hazır duruyor ama kullanılmıyor; DigitalOcean/Sentry dosyaları kaldırıldı. `docker compose up --build` açılışta migrate + `seed_questions` (veritabanı boşsa) çalıştırır.
 
 ## Durum
-Faz 0–3 tamam (iskelet, modeller, admin, docker, CI, 5×40 soru, API) ve frontend Faz 4–6 ile bağlandı. Sorular insan kontrolü bekliyor. Sıradaki: Faz 7 (E2E, erişilebilirlik, deploy, Sentry), sonra Faz 8 (mobil).
-Admin yolu `/yonetim/` (`/admin/` değil).
+Faz 0–3 tamam, frontend Faz 4–6 ile bağlandı. Sorular insan kontrolü bekliyor. Sıradaki: mobil (Faz 8, frontend reposunda). Admin yolu `/yonetim/` (`/admin/` değil).
