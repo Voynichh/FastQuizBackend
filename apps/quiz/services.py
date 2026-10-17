@@ -368,6 +368,9 @@ def save_score(session: QuizSession, player_name: str) -> SavedScore:
         locked = _lock(session.pk)
         if ScoreEntry.objects.filter(session=locked).exists():
             raise err.ScoreAlreadySaved
+        avg_response_ms = _avg_response_ms(locked)
+        if avg_response_ms < settings.QUIZ_MIN_PLAUSIBLE_AVG_MS:
+            raise err.ScoreRejected  # bot/script benzeri aşırı hızlı oturum
         name = leaderboard.validate_player_name(player_name)
         entry = ScoreEntry.objects.create(
             session=locked,
@@ -375,7 +378,7 @@ def save_score(session: QuizSession, player_name: str) -> SavedScore:
             player_name=name,
             score=locked.total_score,
             correct_count=locked.correct_count,
-            avg_response_ms=_avg_response_ms(locked),
+            avg_response_ms=avg_response_ms,
         )
     rank = leaderboard.rank_of(entry)
     return SavedScore(rank=rank, in_top_10=rank <= settings.LEADERBOARD_SIZE, score=entry.score)

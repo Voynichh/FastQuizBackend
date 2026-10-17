@@ -4,6 +4,7 @@ import pytest
 import time_machine
 from django.core.cache import cache
 
+from apps.common import middleware
 from apps.quiz.models import Choice
 
 from .factories import CategoryFactory, ChoiceFactory, QuestionFactory
@@ -23,6 +24,14 @@ def _clear_throttle_cache():
     cache.clear()
     yield
     cache.clear()
+
+
+@pytest.fixture(autouse=True)
+def _reset_health_cache():
+    """Sağlık ucunun 5 sn'lik sonuç önbelleği testler arasında sızmasın."""
+    middleware._cache.update(at=None, ok=True)
+    yield
+    middleware._cache.update(at=None, ok=True)
 
 
 @pytest.fixture

@@ -93,8 +93,10 @@ REST_FRAMEWORK = {
         "answers": "60/min",
         "score": "5/min",
     },
-    # Proxy arkasında gerçek istemci IP'si için; yük dengeleyici sayısı biliniyorsa ayarlanır.
-    "NUM_PROXIES": env.int("NUM_PROXIES", default=None),
+    # Rate limit istemciyi yalnızca gerçek bağlantı IP'siyle (REMOTE_ADDR) tanır. İstemci
+    # `X-Forwarded-For` başlığını kendisi yazabildiği için varsayılan 0'dır; uygulama güvenilir
+    # bir ters proxy arkasına konursa gerçek proxy sayısı NUM_PROXIES ile verilmelidir.
+    "NUM_PROXIES": env.int("NUM_PROXIES", default=0),
 }
 
 SPECTACULAR_SETTINGS = {
@@ -114,5 +116,8 @@ QUIZ_QUESTION_COUNT = env.int("QUIZ_QUESTION_COUNT", default=20)
 QUIZ_TIME_LIMIT_MS = env.int("QUIZ_TIME_LIMIT_MS", default=5000)
 QUIZ_GRACE_MS = env.int("QUIZ_GRACE_MS", default=500)
 LEADERBOARD_SIZE = env.int("LEADERBOARD_SIZE", default=10)
+# Ortalama cevap süresi bunun altındaysa skor tabloya yazılmaz (insan için gerçekçi değil:
+# okuma + dokunma süresi 20 soruda ortalama 0,7 sn'nin altına inmez). Script/bot önlemi.
+QUIZ_MIN_PLAUSIBLE_AVG_MS = env.int("QUIZ_MIN_PLAUSIBLE_AVG_MS", default=700)
 # Bu kadar süre işlem görmeyen aktif oturum "abandoned" olur
 QUIZ_SESSION_IDLE_SECONDS = env.int("QUIZ_SESSION_IDLE_SECONDS", default=600)

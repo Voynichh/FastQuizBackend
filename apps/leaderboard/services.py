@@ -4,6 +4,7 @@ Sıralama kuralı: puan (yüksek) → ortalama cevap süresi (düşük) → önc
 """
 
 import re
+import string
 import unicodedata
 
 from django.conf import settings
@@ -15,8 +16,9 @@ from .models import ScoreEntry
 
 NAME_MIN_LENGTH = 2
 NAME_MAX_LENGTH = 20
-# Harf/rakam/alt çizgi (unicode), boşluk, tire ve nokta
-_NAME_RE = re.compile(r"^[\w .\-]+$")
+# İzin verilen karakterler: Latin harfler (aksanlılar dahil: ç ğ ı ö ş ü é ñ ...), ASCII rakamlar,
+# boşluk, alt çizgi, tire ve nokta. Kiril/Yunan gibi Latin'e benzeyen harfler (homoglif) reddedilir.
+_ALLOWED_BASE = set(string.ascii_letters + string.digits + "ıİ _.-")
 
 # Normalize edilmiş (ASCII, küçük harf) küfür kökleri. >=5 karakterliler ad içinde
 # aranır; kısalar yalnızca tam kelime olarak eşleşir (Sikke/Dickens gibi adlar geçsin).
@@ -64,18 +66,30 @@ def contains_profanity(name: str) -> bool:
     return len(words) > 1 and all(len(w) == 1 for w in words) and _squash(compact) in _SHORT
 
 
+def _base_char(ch: str) -> str:
+    """Aksanı atılmış temel karakter (ş → s, é → e); ayrışmayan karakterler olduğu gibi kalır."""
+    decomposed = [c for c in unicodedata.normalize("NFD", ch) if not unicodedata.combining(c)]
+    return decomposed[0] if len(decomposed) == 1 else ""
+
+
+def _has_only_allowed_chars(name: str) -> bool:
+    return all(_base_char(ch) in _ALLOWED_BASE for ch in name)
+
+
 def validate_player_name(raw: str) -> str:
     """Temizlenmiş adı döner; geçersizse `validation_error` (400) fırlatır."""
-    name = (raw or "").strip()
+    name = unicodedata.normalize("NFC", (raw or "").strip())
     if not NAME_MIN_LENGTH <= len(name) <= NAME_MAX_LENGTH:
         raise ValidationFailed(
             "Geçersiz isim.",
             details={"player_name": [f"İsim {NAME_MIN_LENGTH}-{NAME_MAX_LENGTH} karakter olmalı."]},
         )
-    if not _NAME_RE.fullmatch(name):
+    if not _has_only_allowed_chars(name):
         raise ValidationFailed(
             "Geçersiz isim.",
-            details={"player_name": ["İsim yalnızca harf, rakam, boşluk ve _ - . içerebilir."]},
+            details={
+                "player_name": ["İsim yalnızca Latin harf, rakam, boşluk ve _ - . içerebilir."]
+            },
         )
     if contains_profanity(name):
         raise ValidationFailed(

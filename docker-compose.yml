@@ -5,7 +5,8 @@ services:
       POSTGRES_DB: fastquiz
       POSTGRES_USER: quiz
       POSTGRES_PASSWORD: quiz
-    ports: ["5432:5432"]
+    # Yalnızca bu makineden erişilsin (zayıf geliştirme parolası ağa açılmasın)
+    ports: ["127.0.0.1:5432:5432", "[::1]:5432:5432"]
     volumes:
       - pgdata:/var/lib/postgresql   # PostgreSQL 18 imajının veri dizini
     healthcheck:
@@ -26,8 +27,9 @@ services:
     command: >
       sh -c "python manage.py migrate --noinput
       && python manage.py seed_questions
+      && python manage.py purge_stale_sessions
       && python manage.py runserver 0.0.0.0:8000"
-    ports: ["8000:8000"]
+    ports: ["127.0.0.1:8000:8000", "[::1]:8000:8000"]
     volumes:
       - .:/app
     depends_on:

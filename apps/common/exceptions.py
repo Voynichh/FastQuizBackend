@@ -75,6 +75,12 @@ class ScoreAlreadySaved(ApiError):
     message = "Bu oturum için skor zaten kaydedildi."
 
 
+class ScoreRejected(ApiError):
+    status_code = status.HTTP_400_BAD_REQUEST
+    code = "score_rejected"
+    message = "Cevap süren gerçekçi görünmediği için skor tabloya eklenemedi."
+
+
 class CategoryUnavailable(ApiError):
     status_code = status.HTTP_409_CONFLICT
     code = "category_unavailable"

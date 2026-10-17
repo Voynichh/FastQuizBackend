@@ -18,7 +18,8 @@
 - **Üyeliksiz kimlik:** Oturum başına `secrets.token_urlsafe(32)` token'ı, veritabanında yalnızca SHA-256 özeti; `hmac.compare_digest` ile karşılaştırma. Çerez ve CSRF yok (durumsuz API).
 - **Hız bonuslu puan:** Doğru cevap = 100 + kalan süreye orantılı en fazla 100 bonus (tamsayı aritmetiğiyle, `.5` yukarı yuvarlanır).
 - **Skor tablosu:** Kategori bazlı ve genel; sıralama puan ↓, ortalama süre ↑, kayıt zamanı ↑. Bileşik indekslerle okunur.
-- **Güvenli takma ad:** Uzunluk/karakter kuralları ve Türkçe + İngilizce küfür filtresi (ı/i, ş/s, leet, harf aralığı ve tekrar numaralarına dayanıklı; "Sikke", "Dickens" gibi masum adlar geçer).
+- **Güvenli takma ad:** Yalnızca Latin harf (aksanlılar dahil), rakam, boşluk ve `_ - .`; Kiril/Yunan gibi Latin'e benzeyen harfler (homoglif) reddedilir. Türkçe + İngilizce küfür filtresi ı/i, ş/s, leet, harf aralığı ve tekrar numaralarına dayanıklıdır; "Sikke", "Dickens" gibi masum adlar geçer.
+- **Kötüye kullanım önlemleri:** Rate limit yalnızca gerçek bağlantı IP'sine bakar (`X-Forwarded-For` sahteciliğiyle atlatılamaz), gerçekçi olmayan hızdaki (bot benzeri) oturumların skoru tabloya yazılmaz, eski oturumlar temizlenir, sağlık ucu veritabanını sık sorgulamaz. Docker portları yalnızca `127.0.0.1`'e açılır.
 - **Tek hata formatı** (`{"error": {"code", "message", "details"}}`), **IP başına rate limit**, **OpenAPI 3 şeması + Swagger UI**.
 - **Veri bütünlüğü:** Soru başına tek doğru şık veritabanı kısmi unique index'iyle garanti edilir; soru havuzu fixture dosyalarından yönetilir ve testlerle (4 şık, tek doğru, benzersiz metin) doğrulanır.
 
@@ -29,7 +30,7 @@
 | Dil / çatı | Python 3.14, Django 6.1, Django REST Framework 3.18 |
 | Veritabanı | PostgreSQL 18 (kısmi unique index, `FOR UPDATE`; testler de PostgreSQL üzerinde) |
 | Şema / dokümantasyon | drf-spectacular + sidecar (Swagger UI) |
-| Test | pytest, pytest-django, factory_boy, time-machine · **160+ test**, `services.py` kapsaması ~%97 |
+| Test | pytest, pytest-django, factory_boy, time-machine · **185+ test**, `services.py` kapsaması ~%97 |
 | Kalite | Ruff (lint + format), pip-audit, GitHub Actions (lint → test → Docker build) |
 | Konteyner | Docker + docker-compose (çok aşamalı, root olmayan kullanıcı) |
 
@@ -103,6 +104,13 @@ fixtures/                kategori + 200 soru (kaynak: fixtures/sources/*.json)
 scripts/                 kaynaktan fixture üreten betik
 docs/PROJECT.md          başlangıç proje dokümanı (mimari, veri modeli, API sözleşmesi)
 ```
+
+## Güvenlik notları
+
+- Kimlik yok: oturum token'ı yalnızca o quiz turunu yönetir (SHA-256 özetiyle saklanır). Skor kaydı için ek doğrulama yoktur.
+- **Bilinen sınırlama:** Anonim bir quizde doğru şık cevap sonrası gösterildiği için, kararlı bir saldırgan soru havuzunun cevaplarını script'le öğrenebilir. Bu yüzden ortalama süresi 0,7 sn'nin altındaki oturumlar skor tablosuna alınmaz; tam çözüm kimlik doğrulama/CAPTCHA gerektirir ve kapsam dışıdır.
+- Rate limit sayaçları işlem başına bellektedir; birden çok işçi/instance ile çalıştırılırsa paylaşımlı bir cache (Redis/DB) gerekir. Ters proxy arkasında `NUM_PROXIES` gerçek proxy sayısına ayarlanmalıdır.
+- `python manage.py purge_stale_sessions` terk edilmiş oturumları temizler (`docker compose up` açılışında otomatik çalışır).
 
 ## Notlar
 

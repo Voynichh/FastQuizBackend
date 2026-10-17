@@ -1,3 +1,5 @@
+import unicodedata
+
 import pytest
 
 from apps.common.exceptions import ApiError
@@ -14,6 +16,10 @@ from apps.quiz.tests.factories import CategoryFactory, QuizSessionFactory
         ("Ece", "Ece"),
         ("  Ece  ", "Ece"),
         ("Çağrı Şen", "Çağrı Şen"),
+        ("José", "José"),
+        ("Zoë", "Zoë"),
+        ("İpek", "İpek"),
+        ("ısı", "ısı"),
         ("ali_veli-99.x", "ali_veli-99.x"),
         ("Ab", "Ab"),
         ("a" * 20, "a" * 20),
@@ -25,7 +31,33 @@ def test_valid_names(raw, expected):
 
 @pytest.mark.parametrize(
     "raw",
-    ["", " ", "a", "a" * 21, "  a  ", "Ece!", "<b>Ece</b>", "ece@x", "ece😀", "a\nb", "Ece\tx"],
+    [
+        *[
+            "",
+            " ",
+            "a",
+            "a" * 21,
+            "  a  ",
+            "Ece!",
+            "<b>Ece</b>",
+            "ece@x",
+            "ece😀",
+            "a\nb",
+            "Ece\tx",
+        ],
+        # Latin'e benzeyen başka yazı sistemi harfleri (homoglif) reddedilir
+        "fuсk",  # Kiril с
+        "ѕhit",  # Kiril ѕ
+        "pіc",  # Kiril і
+        "Аda",  # Kiril А
+        "Ρaul",  # Yunan Ρ
+        "аdmin",  # Kiril а
+        # tam genişlik, başka yazı sistemi rakamı, sağdan sola geçersiz kılma, sıfır genişlik
+        "Ａda",
+        "ece٣",
+        "ece‮",
+        "ec​e",
+    ],
 )
 def test_invalid_names(raw):
     with pytest.raises(ApiError) as exc:
@@ -122,3 +154,15 @@ def test_estimated_rank_for_hypothetical_score():
     assert services.estimated_rank(c, score=1000, avg_response_ms=900) == 1
     assert services.estimated_rank(c, score=900, avg_response_ms=1) == 2
     assert services.estimated_rank(c, score=100, avg_response_ms=1) == 3
+
+
+def test_decomposed_unicode_is_normalized_to_nfc():
+    decomposed = "Çağri"  # ç + ğ ayrışık (taban harf + birleştirici işaret) biçimde
+    name = services.validate_player_name(decomposed)
+    assert name == unicodedata.normalize("NFC", decomposed) == "Çağri"
+    assert len(name) < len(decomposed)
+
+
+def test_stray_combining_marks_are_rejected():
+    with pytest.raises(ApiError):
+        services.validate_player_name("Ece" + "́" * 3 + "̵")  # zalgo benzeri
