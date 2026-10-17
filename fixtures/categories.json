@@ -1,0 +1,7 @@
+[
+  {"model": "quiz.category", "pk": 1, "fields": {"slug": "yazilim", "name": "Yazılım", "description": "Kod, diller ve yazılım geliştirme kültürü.", "icon": "code", "color": "cat-software", "order": 1, "is_active": true}},
+  {"model": "quiz.category", "pk": 2, "fields": {"slug": "bilgisayar-muhendisligi", "name": "Bilgisayar Mühendisliği", "description": "Donanım, işletim sistemleri, ağlar ve algoritmalar.", "icon": "cpu", "color": "cat-compeng", "order": 2, "is_active": true}},
+  {"model": "quiz.category", "pk": 3, "fields": {"slug": "yapay-zeka", "name": "Yapay Zeka", "description": "Makine öğrenmesi, sinir ağları ve modern yapay zeka.", "icon": "brain", "color": "cat-ai", "order": 3, "is_active": true}},
+  {"model": "quiz.category", "pk": 4, "fields": {"slug": "ulkeler", "name": "Ülkeler", "description": "Başkentler, bayraklar ve dünya coğrafyası.", "icon": "globe", "color": "cat-countries", "order": 4, "is_active": true}},
+  {"model": "quiz.category", "pk": 5, "fields": {"slug": "fizik", "name": "Fizik", "description": "Evrenin kuralları: kuvvet, enerji, atomlar.", "icon": "atom", "color": "cat-physics", "order": 5, "is_active": true}}
+]
