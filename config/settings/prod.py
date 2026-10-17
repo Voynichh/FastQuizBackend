@@ -1,5 +1,5 @@
 from .base import *  # noqa: F403
-from .base import MIDDLEWARE, env
+from .base import MIDDLEWARE
 
 DEBUG = False
 
@@ -9,11 +9,8 @@ SECURE_SSL_REDIRECT = True
 SECURE_HSTS_SECONDS = 31536000
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default=[])
 
-# WhiteNoise: Admin ve Swagger UI statik dosyaları imajdan sunulur.
+# WhiteNoise: Swagger UI statik dosyaları imajdan sunulur.
 MIDDLEWARE = [
     MIDDLEWARE[0],  # HealthCheckMiddleware en başta kalır
     MIDDLEWARE[1],  # SecurityMiddleware

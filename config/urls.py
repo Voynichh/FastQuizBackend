@@ -1,4 +1,3 @@
-from django.contrib import admin
 from django.urls import include, path
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
@@ -14,6 +13,5 @@ api_v1 = [
 ]
 
 urlpatterns = [
-    path("yonetim/", admin.site.urls),
     path("api/v1/", include(api_v1)),
 ]

@@ -20,7 +20,7 @@
 - **Skor tablosu:** Kategori bazlı ve genel; sıralama puan ↓, ortalama süre ↑, kayıt zamanı ↑. Bileşik indekslerle okunur.
 - **Güvenli takma ad:** Uzunluk/karakter kuralları ve Türkçe + İngilizce küfür filtresi (ı/i, ş/s, leet, harf aralığı ve tekrar numaralarına dayanıklı; "Sikke", "Dickens" gibi masum adlar geçer).
 - **Tek hata formatı** (`{"error": {"code", "message", "details"}}`), **IP başına rate limit**, **OpenAPI 3 şeması + Swagger UI**.
-- Django Admin'de (`/yonetim/`) soru ve şıklar tek ekranda; tam 4 şık ve tek doğru cevap zorunlu.
+- **Veri bütünlüğü:** Soru başına tek doğru şık veritabanı kısmi unique index'iyle garanti edilir; soru havuzu fixture dosyalarından yönetilir ve testlerle (4 şık, tek doğru, benzersiz metin) doğrulanır.
 
 ## Teknoloji
 
@@ -46,7 +46,6 @@ Açılışta migrasyonlar uygulanır ve veritabanı boşsa **5 kategori × 40 so
 
 - API: http://localhost:8000/api/v1/
 - Swagger: http://localhost:8000/api/v1/docs/
-- Admin için kullanıcı oluştur: `docker compose exec api python manage.py createsuperuser` → http://localhost:8000/yonetim/
 
 ### Yerelde (Python ile)
 
@@ -57,7 +56,6 @@ py -3.14 -m venv .venv                  # Windows; Linux/macOS: python3.14 -m ve
 .venv\Scripts\pip install -r requirements/dev.txt
 .venv\Scripts\python manage.py migrate
 .venv\Scripts\python manage.py seed_questions
-.venv\Scripts\python manage.py createsuperuser
 .venv\Scripts\python manage.py runserver
 ```
 
@@ -97,7 +95,7 @@ config/                  ayarlar (base / dev / prod), urls
 apps/
 ├── quiz/                Category, Question, Choice, QuizSession, SessionQuestion
 │   ├── services.py      oturum, süre doğrulama, puanlama (tek doğruluk kaynağı)
-│   ├── views.py, serializers.py, admin.py
+│   ├── views.py, serializers.py
 │   └── management/      seed_questions komutu
 ├── leaderboard/         ScoreEntry, sıralama sorguları, isim filtresi
 └── common/              hata formatı, sağlık middleware'i, ortak alanlar
@@ -108,7 +106,7 @@ docs/PROJECT.md          başlangıç proje dokümanı (mimari, veri modeli, API
 
 ## Notlar
 
-- Sorular yapay zekâ yardımıyla yazıldı; yayın öncesi insan gözüyle kontrol edilmesi önerilir. Düzenlemek için `fixtures/sources/*.json` dosyalarını değiştirip `python scripts/build_fixtures.py` çalıştırın (ya da Admin'den düzenleyin).
+- Sorular yapay zekâ yardımıyla yazıldı; yayın öncesi insan gözüyle kontrol edilmesi önerilir. Soru eklemek/düzenlemek için `fixtures/sources/*.json` dosyalarını değiştirip `python scripts/build_fixtures.py` çalıştırın, ardından `python manage.py seed_questions --force` ile yükleyin. Yönetim paneli yoktur; içerik dosyalardan yönetilir.
 - Bu proje yerelde çalışan bir portföy projesidir; canlıya alma planı kapsam dışıdır. `config/settings/prod.py`, `Dockerfile` ve `gunicorn.conf.py` üretim benzeri bir çalışma için hazır bırakılmıştır.
 
 ## Lisans

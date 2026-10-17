@@ -8,7 +8,7 @@ from apps.quiz.models import Category
 class Command(BaseCommand):
     help = (
         "fixtures/ altındaki kategori ve soru verisini yükler. Veritabanında zaten kategori "
-        "varsa atlar (Admin'de yapılan düzenlemeler ezilmesin); --force ile yeniden yükler."
+        "varsa atlar (veritabanındaki mevcut veri ezilmesin); --force ile yeniden yükler."
     )
 
     def add_arguments(self, parser):

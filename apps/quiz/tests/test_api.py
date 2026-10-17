@@ -388,6 +388,11 @@ def test_unknown_api_path_returns_json_404(api):
     assert_error(api.get(f"{BASE}/yok/"), 404, "not_found")
 
 
+def test_there_is_no_admin_panel(client):
+    for path in ("/yonetim/", "/admin/", "/yonetim/login/"):
+        assert client.get(path).status_code == 404
+
+
 def test_method_not_allowed_uses_error_format(api, category):
     assert_error(api.delete(f"{BASE}/categories/"), 405, "method_not_allowed")
 

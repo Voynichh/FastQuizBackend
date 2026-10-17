@@ -21,10 +21,10 @@ docker compose up -d db
 .venv\Scripts\python -m pytest
 .venv\Scripts\python -m ruff check . ; .venv\Scripts\python -m ruff format .
 ```
-`.env` için `.env.example` kopyalanır. Admin: `/yonetim/`.
+`.env` için `.env.example` kopyalanır. Yönetim paneli (Django Admin) yoktur; soru içeriği fixture dosyalarından yönetilir.
 
 ## Soru havuzu
-Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanlış2, yanlış3]`). Düzenledikten sonra `.venv\Scripts\python scripts/build_fixtures.py` ile `fixtures/questions_<slug>.json` yeniden üretilir (pk'ler sabit, `loaddata` tekrar çalıştırılabilir). Yeni soruyu listenin sonuna ekle. Yükleme: `manage.py seed_questions` (veritabanı boşsa yükler; `--force` ile yeniden yükler, Admin düzenlemelerini ezer).
+Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanlış2, yanlış3]`). Düzenledikten sonra `.venv\Scripts\python scripts/build_fixtures.py` ile `fixtures/questions_<slug>.json` yeniden üretilir (pk'ler sabit, `loaddata` tekrar çalıştırılabilir). Yeni soruyu listenin sonuna ekle. Yükleme: `manage.py seed_questions` (veritabanı boşsa yükler; `--force` ile yeniden yükler).
 
 ## API notları (doküman Bölüm 6–7'ye ek kararlar)
 Şema/Swagger: `/api/v1/schema/`, `/api/v1/docs/` (statik dosyalar `drf-spectacular-sidecar` ile imajdan). Katmanlar: view → `services.py` → model; hata sınıfları `apps/common/exceptions.py`.
@@ -40,4 +40,4 @@ Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanl�
 Yerelde çalışan portföy projesi; **canlıya alma iptal edildi** (bkz. `..\CLAUDE.md`). `config/settings/prod.py`, `Dockerfile`, `gunicorn.conf.py` üretim benzeri çalışma için hazır duruyor ama kullanılmıyor; DigitalOcean/Sentry dosyaları kaldırıldı. `docker compose up --build` açılışta migrate + `seed_questions` (veritabanı boşsa) çalıştırır.
 
 ## Durum
-Faz 0–3 tamam, frontend Faz 4–6 ile bağlandı. Sorular insan kontrolü bekliyor. Sıradaki: mobil (Faz 8, frontend reposunda). Admin yolu `/yonetim/` (`/admin/` değil).
+Faz 0–3 tamam, frontend Faz 4–6 ile bağlandı. Sorular insan kontrolü bekliyor. Sıradaki: mobil (Faz 8, frontend reposunda). Django Admin kaldırıldı (kullanıcı isteği); `auth`/`contenttypes` DRF için duruyor.
