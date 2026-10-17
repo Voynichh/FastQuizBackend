@@ -71,6 +71,13 @@ def play_whole_quiz(api, sid, token, clock, *, ms=1000):
 # ---- kategoriler ----
 
 
+def test_categories_are_listed_in_order_field_sequence(api):
+    for slug, order in (("c", 3), ("a", 1), ("b", 2)):
+        CategoryFactory(slug=slug, order=order)
+    slugs = [c["slug"] for c in api.get(f"{BASE}/categories/").json()["categories"]]
+    assert slugs == ["a", "b", "c"]
+
+
 def test_categories_list_only_active_with_question_counts(api, category):
     CategoryFactory(slug="gizli", is_active=False)
     make_question(category, is_active=False)  # pasif soru sayılmaz

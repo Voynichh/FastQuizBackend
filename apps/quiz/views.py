@@ -56,8 +56,11 @@ class CategoryListView(APIView):
         responses={200: s.CategoryListSerializer},
     )
     def get(self, request):
-        categories = Category.objects.filter(is_active=True).annotate(
-            question_count=Count("questions", filter=Q(questions__is_active=True))
+        # Meta.ordering GROUP BY'lı sorgularda uygulanmaz; sırayı açıkça veriyoruz.
+        categories = (
+            Category.objects.filter(is_active=True)
+            .annotate(question_count=Count("questions", filter=Q(questions__is_active=True)))
+            .order_by("order", "id")
         )
         return Response({"categories": s.CategorySerializer(categories, many=True).data})
 
