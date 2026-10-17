@@ -1,0 +1,1962 @@
+[
+ {
+  "model": "quiz.question",
+  "pk": 5001,
+  "fields": {
+   "category": 5,
+   "text": "Işığın boşluktaki hızı yaklaşık kaç km/s'dir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50010,
+  "fields": {
+   "question": 5001,
+   "text": "300.000",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50011,
+  "fields": {
+   "question": 5001,
+   "text": "150.000",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50012,
+  "fields": {
+   "question": 5001,
+   "text": "3.000",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50013,
+  "fields": {
+   "question": 5001,
+   "text": "30.000",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5002,
+  "fields": {
+   "category": 5,
+   "text": "Newton'un ikinci hareket yasasını ifade eden formül hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50020,
+  "fields": {
+   "question": 5002,
+   "text": "F = m·a",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50021,
+  "fields": {
+   "question": 5002,
+   "text": "E = m·c²",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50022,
+  "fields": {
+   "question": 5002,
+   "text": "V = I·R",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50023,
+  "fields": {
+   "question": 5002,
+   "text": "P = F/A",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5003,
+  "fields": {
+   "category": 5,
+   "text": "Kuvvetin SI birimi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50030,
+  "fields": {
+   "question": 5003,
+   "text": "Newton",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50031,
+  "fields": {
+   "question": 5003,
+   "text": "Joule",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50032,
+  "fields": {
+   "question": 5003,
+   "text": "Watt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50033,
+  "fields": {
+   "question": 5003,
+   "text": "Pascal",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5004,
+  "fields": {
+   "category": 5,
+   "text": "Enerjinin SI birimi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50040,
+  "fields": {
+   "question": 5004,
+   "text": "Joule",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50041,
+  "fields": {
+   "question": 5004,
+   "text": "Newton",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50042,
+  "fields": {
+   "question": 5004,
+   "text": "Watt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50043,
+  "fields": {
+   "question": 5004,
+   "text": "Volt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5005,
+  "fields": {
+   "category": 5,
+   "text": "Gücün SI birimi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50050,
+  "fields": {
+   "question": 5005,
+   "text": "Watt",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50051,
+  "fields": {
+   "question": 5005,
+   "text": "Joule",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50052,
+  "fields": {
+   "question": 5005,
+   "text": "Amper",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50053,
+  "fields": {
+   "question": 5005,
+   "text": "Hertz",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5006,
+  "fields": {
+   "category": 5,
+   "text": "Frekansın SI birimi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50060,
+  "fields": {
+   "question": 5006,
+   "text": "Hertz",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50061,
+  "fields": {
+   "question": 5006,
+   "text": "Watt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50062,
+  "fields": {
+   "question": 5006,
+   "text": "Volt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50063,
+  "fields": {
+   "question": 5006,
+   "text": "Tesla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5007,
+  "fields": {
+   "category": 5,
+   "text": "Basıncın SI birimi nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50070,
+  "fields": {
+   "question": 5007,
+   "text": "Pascal",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50071,
+  "fields": {
+   "question": 5007,
+   "text": "Newton",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50072,
+  "fields": {
+   "question": 5007,
+   "text": "Joule",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50073,
+  "fields": {
+   "question": 5007,
+   "text": "Ohm",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5008,
+  "fields": {
+   "category": 5,
+   "text": "Elektrik direncinin birimi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50080,
+  "fields": {
+   "question": 5008,
+   "text": "Ohm",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50081,
+  "fields": {
+   "question": 5008,
+   "text": "Volt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50082,
+  "fields": {
+   "question": 5008,
+   "text": "Amper",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50083,
+  "fields": {
+   "question": 5008,
+   "text": "Watt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5009,
+  "fields": {
+   "category": 5,
+   "text": "Elektrik akımının birimi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50090,
+  "fields": {
+   "question": 5009,
+   "text": "Amper",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50091,
+  "fields": {
+   "question": 5009,
+   "text": "Volt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50092,
+  "fields": {
+   "question": 5009,
+   "text": "Ohm",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50093,
+  "fields": {
+   "question": 5009,
+   "text": "Coulomb",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5010,
+  "fields": {
+   "category": 5,
+   "text": "Elektrik geriliminin birimi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50100,
+  "fields": {
+   "question": 5010,
+   "text": "Volt",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50101,
+  "fields": {
+   "question": 5010,
+   "text": "Amper",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50102,
+  "fields": {
+   "question": 5010,
+   "text": "Ohm",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50103,
+  "fields": {
+   "question": 5010,
+   "text": "Watt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5011,
+  "fields": {
+   "category": 5,
+   "text": "Ohm yasasını ifade eden formül hangisidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50110,
+  "fields": {
+   "question": 5011,
+   "text": "V = I·R",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50111,
+  "fields": {
+   "question": 5011,
+   "text": "F = m·a",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50112,
+  "fields": {
+   "question": 5011,
+   "text": "E = m·c²",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50113,
+  "fields": {
+   "question": 5011,
+   "text": "P = m·v",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5012,
+  "fields": {
+   "category": 5,
+   "text": "Yer çekimi ivmesi yaklaşık kaç m/s²'dir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50120,
+  "fields": {
+   "question": 5012,
+   "text": "9,8",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50121,
+  "fields": {
+   "question": 5012,
+   "text": "1,6",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50122,
+  "fields": {
+   "question": 5012,
+   "text": "98",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50123,
+  "fields": {
+   "question": 5012,
+   "text": "0,98",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5013,
+  "fields": {
+   "category": 5,
+   "text": "Evrensel kütle çekim yasasını kim ortaya koymuştur?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50130,
+  "fields": {
+   "question": 5013,
+   "text": "Isaac Newton",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50131,
+  "fields": {
+   "question": 5013,
+   "text": "Galileo Galilei",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50132,
+  "fields": {
+   "question": 5013,
+   "text": "Albert Einstein",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50133,
+  "fields": {
+   "question": 5013,
+   "text": "Nikola Tesla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5014,
+  "fields": {
+   "category": 5,
+   "text": "E = mc² denklemi kime aittir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50140,
+  "fields": {
+   "question": 5014,
+   "text": "Albert Einstein",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50141,
+  "fields": {
+   "question": 5014,
+   "text": "Isaac Newton",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50142,
+  "fields": {
+   "question": 5014,
+   "text": "Niels Bohr",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50143,
+  "fields": {
+   "question": 5014,
+   "text": "Max Planck",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5015,
+  "fields": {
+   "category": 5,
+   "text": "Suyun deniz seviyesinde donma noktası kaç °C'dir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50150,
+  "fields": {
+   "question": 5015,
+   "text": "0",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50151,
+  "fields": {
+   "question": 5015,
+   "text": "10",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50152,
+  "fields": {
+   "question": 5015,
+   "text": "-10",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50153,
+  "fields": {
+   "question": 5015,
+   "text": "32",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5016,
+  "fields": {
+   "category": 5,
+   "text": "Suyun deniz seviyesinde kaynama noktası kaç °C'dir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50160,
+  "fields": {
+   "question": 5016,
+   "text": "100",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50161,
+  "fields": {
+   "question": 5016,
+   "text": "90",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50162,
+  "fields": {
+   "question": 5016,
+   "text": "212",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50163,
+  "fields": {
+   "question": 5016,
+   "text": "50",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5017,
+  "fields": {
+   "category": 5,
+   "text": "Mutlak sıfır sıcaklığı kaç °C'dir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50170,
+  "fields": {
+   "question": 5017,
+   "text": "-273,15",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50171,
+  "fields": {
+   "question": 5017,
+   "text": "-100",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50172,
+  "fields": {
+   "question": 5017,
+   "text": "-373,15",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50173,
+  "fields": {
+   "question": 5017,
+   "text": "0",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5018,
+  "fields": {
+   "category": 5,
+   "text": "Ses boşlukta yayılır mı?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50180,
+  "fields": {
+   "question": 5018,
+   "text": "Hayır, yayılması için ortam gerekir",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50181,
+  "fields": {
+   "question": 5018,
+   "text": "Evet, ışıktan hızlı yayılır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50182,
+  "fields": {
+   "question": 5018,
+   "text": "Evet, ama yavaş yayılır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50183,
+  "fields": {
+   "question": 5018,
+   "text": "Sadece gece yayılır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5019,
+  "fields": {
+   "category": 5,
+   "text": "Işık mı ses mi daha hızlı yayılır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50190,
+  "fields": {
+   "question": 5019,
+   "text": "Işık",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50191,
+  "fields": {
+   "question": 5019,
+   "text": "Ses",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50192,
+  "fields": {
+   "question": 5019,
+   "text": "İkisi eşit",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50193,
+  "fields": {
+   "question": 5019,
+   "text": "Duruma göre değişir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5020,
+  "fields": {
+   "category": 5,
+   "text": "Atom çekirdeğinde hangi parçacıklar bulunur?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50200,
+  "fields": {
+   "question": 5020,
+   "text": "Proton ve nötron",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50201,
+  "fields": {
+   "question": 5020,
+   "text": "Proton ve elektron",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50202,
+  "fields": {
+   "question": 5020,
+   "text": "Elektron ve nötron",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50203,
+  "fields": {
+   "question": 5020,
+   "text": "Foton ve elektron",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5021,
+  "fields": {
+   "category": 5,
+   "text": "Elektronun elektrik yükü nasıldır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50210,
+  "fields": {
+   "question": 5021,
+   "text": "Negatif",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50211,
+  "fields": {
+   "question": 5021,
+   "text": "Pozitif",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50212,
+  "fields": {
+   "question": 5021,
+   "text": "Yüksüz",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50213,
+  "fields": {
+   "question": 5021,
+   "text": "Değişken",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5022,
+  "fields": {
+   "category": 5,
+   "text": "Nötronun elektrik yükü nasıldır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50220,
+  "fields": {
+   "question": 5022,
+   "text": "Yüksüzdür",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50221,
+  "fields": {
+   "question": 5022,
+   "text": "Pozitiftir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50222,
+  "fields": {
+   "question": 5022,
+   "text": "Negatiftir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50223,
+  "fields": {
+   "question": 5022,
+   "text": "Değişkendir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5023,
+  "fields": {
+   "category": 5,
+   "text": "Bir elementin atom numarasını hangi parçacığın sayısı belirler?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50230,
+  "fields": {
+   "question": 5023,
+   "text": "Proton",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50231,
+  "fields": {
+   "question": 5023,
+   "text": "Nötron",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50232,
+  "fields": {
+   "question": 5023,
+   "text": "Elektron",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50233,
+  "fields": {
+   "question": 5023,
+   "text": "Foton",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5024,
+  "fields": {
+   "category": 5,
+   "text": "Güneş'in enerji kaynağı hangi olaydır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50240,
+  "fields": {
+   "question": 5024,
+   "text": "Nükleer füzyon",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50241,
+  "fields": {
+   "question": 5024,
+   "text": "Nükleer fisyon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50242,
+  "fields": {
+   "question": 5024,
+   "text": "Kimyasal yanma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50243,
+  "fields": {
+   "question": 5024,
+   "text": "Radyoaktif bozunma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5025,
+  "fields": {
+   "category": 5,
+   "text": "Nükleer santraller enerji üretmek için hangi olayı kullanır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50250,
+  "fields": {
+   "question": 5025,
+   "text": "Nükleer fisyon",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50251,
+  "fields": {
+   "question": 5025,
+   "text": "Nükleer füzyon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50252,
+  "fields": {
+   "question": 5025,
+   "text": "Kimyasal yanma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50253,
+  "fields": {
+   "question": 5025,
+   "text": "Yer çekimi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5026,
+  "fields": {
+   "category": 5,
+   "text": "Görünür ışık renkleri içinde dalga boyu en uzun olan hangisidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50260,
+  "fields": {
+   "question": 5026,
+   "text": "Kırmızı",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50261,
+  "fields": {
+   "question": 5026,
+   "text": "Mor",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50262,
+  "fields": {
+   "question": 5026,
+   "text": "Mavi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50263,
+  "fields": {
+   "question": 5026,
+   "text": "Yeşil",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5027,
+  "fields": {
+   "category": 5,
+   "text": "Gökkuşağının oluşmasında ışığın hangi özelliği rol oynar?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50270,
+  "fields": {
+   "question": 5027,
+   "text": "Kırılma ve renklere ayrılma",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50271,
+  "fields": {
+   "question": 5027,
+   "text": "Sadece yansıma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50272,
+  "fields": {
+   "question": 5027,
+   "text": "Sadece soğurulma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50273,
+  "fields": {
+   "question": 5027,
+   "text": "Elektriklenme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5028,
+  "fields": {
+   "category": 5,
+   "text": "Düz aynada ışığın gelme açısı ile yansıma açısı arasındaki ilişki nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50280,
+  "fields": {
+   "question": 5028,
+   "text": "Birbirine eşittir",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50281,
+  "fields": {
+   "question": 5028,
+   "text": "Gelme açısı daha büyüktür",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50282,
+  "fields": {
+   "question": 5028,
+   "text": "Yansıma açısı daha büyüktür",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50283,
+  "fields": {
+   "question": 5028,
+   "text": "Aralarında ilişki yoktur",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5029,
+  "fields": {
+   "category": 5,
+   "text": "Işınları bir noktada toplayan mercek türü hangisidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50290,
+  "fields": {
+   "question": 5029,
+   "text": "Dışbükey (yakınsak) mercek",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50291,
+  "fields": {
+   "question": 5029,
+   "text": "İçbükey (ıraksak) mercek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50292,
+  "fields": {
+   "question": 5029,
+   "text": "Düz mercek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50293,
+  "fields": {
+   "question": 5029,
+   "text": "Prizma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5030,
+  "fields": {
+   "category": 5,
+   "text": "Güneş'ten Dünya'ya ısı hangi yolla ulaşır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50300,
+  "fields": {
+   "question": 5030,
+   "text": "Işıma",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50301,
+  "fields": {
+   "question": 5030,
+   "text": "İletim",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50302,
+  "fields": {
+   "question": 5030,
+   "text": "Konveksiyon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50303,
+  "fields": {
+   "question": 5030,
+   "text": "Buharlaşma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5031,
+  "fields": {
+   "category": 5,
+   "text": "Bir cisim Ay'a götürüldüğünde hangisi değişir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50310,
+  "fields": {
+   "question": 5031,
+   "text": "Ağırlığı azalır, kütlesi değişmez",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50311,
+  "fields": {
+   "question": 5031,
+   "text": "Kütlesi azalır, ağırlığı değişmez",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50312,
+  "fields": {
+   "question": 5031,
+   "text": "Hem kütlesi hem ağırlığı artar",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50313,
+  "fields": {
+   "question": 5031,
+   "text": "Hiçbiri değişmez",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5032,
+  "fields": {
+   "category": 5,
+   "text": "Hızı 10 m/s olan bir cisim 5 saniyede kaç metre yol alır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50320,
+  "fields": {
+   "question": 5032,
+   "text": "50",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50321,
+  "fields": {
+   "question": 5032,
+   "text": "2",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50322,
+  "fields": {
+   "question": 5032,
+   "text": "15",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50323,
+  "fields": {
+   "question": 5032,
+   "text": "100",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5033,
+  "fields": {
+   "category": 5,
+   "text": "Hava direncinin olmadığı ortamda tüy ile taş aynı yükseklikten bırakılırsa ne olur?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50330,
+  "fields": {
+   "question": 5033,
+   "text": "Aynı anda yere düşerler",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50331,
+  "fields": {
+   "question": 5033,
+   "text": "Taş önce düşer",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50332,
+  "fields": {
+   "question": 5033,
+   "text": "Tüy önce düşer",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50333,
+  "fields": {
+   "question": 5033,
+   "text": "İkisi de havada kalır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5034,
+  "fields": {
+   "category": 5,
+   "text": "Newton'un üçüncü yasası neyi anlatır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50340,
+  "fields": {
+   "question": 5034,
+   "text": "Etki-tepki: her kuvvete eşit ve zıt bir tepki vardır",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50341,
+  "fields": {
+   "question": 5034,
+   "text": "Atalet",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50342,
+  "fields": {
+   "question": 5034,
+   "text": "Kütle çekimi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50343,
+  "fields": {
+   "question": 5034,
+   "text": "Enerjinin korunumu",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5035,
+  "fields": {
+   "category": 5,
+   "text": "Kinetik enerji formülü hangisidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50350,
+  "fields": {
+   "question": 5035,
+   "text": "½·m·v²",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50351,
+  "fields": {
+   "question": 5035,
+   "text": "m·g·h",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50352,
+  "fields": {
+   "question": 5035,
+   "text": "m·a",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50353,
+  "fields": {
+   "question": 5035,
+   "text": "F·t",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5036,
+  "fields": {
+   "category": 5,
+   "text": "Mıknatısların aynı kutupları birbirine ne yapar?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50360,
+  "fields": {
+   "question": 5036,
+   "text": "İter",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50361,
+  "fields": {
+   "question": 5036,
+   "text": "Çeker",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50362,
+  "fields": {
+   "question": 5036,
+   "text": "Etkilemez",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50363,
+  "fields": {
+   "question": 5036,
+   "text": "Birleştirir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5037,
+  "fields": {
+   "category": 5,
+   "text": "Aşağıdakilerden hangisi iyi bir elektrik iletkenidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50370,
+  "fields": {
+   "question": 5037,
+   "text": "Bakır",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50371,
+  "fields": {
+   "question": 5037,
+   "text": "Cam",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50372,
+  "fields": {
+   "question": 5037,
+   "text": "Plastik",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50373,
+  "fields": {
+   "question": 5037,
+   "text": "Tahta",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5038,
+  "fields": {
+   "category": 5,
+   "text": "Heisenberg belirsizlik ilkesi neyi söyler?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50380,
+  "fields": {
+   "question": 5038,
+   "text": "Konum ve momentum aynı anda kesin ölçülemez",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50381,
+  "fields": {
+   "question": 5038,
+   "text": "Işık dalga değildir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50382,
+  "fields": {
+   "question": 5038,
+   "text": "Enerji yoktan var olur",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50383,
+  "fields": {
+   "question": 5038,
+   "text": "Kütle yok edilebilir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5039,
+  "fields": {
+   "category": 5,
+   "text": "Kara delik için hangisi doğrudur?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50390,
+  "fields": {
+   "question": 5039,
+   "text": "Işığın bile kaçamadığı çok güçlü çekim alanıdır",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50391,
+  "fields": {
+   "question": 5039,
+   "text": "Sadece çok soğuk bir yıldızdır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50392,
+  "fields": {
+   "question": 5039,
+   "text": "Gezegenlerin yörüngesidir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50393,
+  "fields": {
+   "question": 5039,
+   "text": "Boş uzay boşluğudur",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 5040,
+  "fields": {
+   "category": 5,
+   "text": "Işık yılı neyin birimidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50400,
+  "fields": {
+   "question": 5040,
+   "text": "Uzaklık",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50401,
+  "fields": {
+   "question": 5040,
+   "text": "Zaman",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50402,
+  "fields": {
+   "question": 5040,
+   "text": "Hız",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 50403,
+  "fields": {
+   "question": 5040,
+   "text": "Enerji",
+   "is_correct": false
+  }
+ }
+]

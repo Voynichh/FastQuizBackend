@@ -23,5 +23,8 @@ docker compose up -d db
 ```
 `.env` için `.env.example` kopyalanır. Admin: `/yonetim/`.
 
+## Soru havuzu
+Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanlış2, yanlış3]`). Düzenledikten sonra `.venv\Scripts\python scripts/build_fixtures.py` ile `fixtures/questions_<slug>.json` yeniden üretilir (pk'ler sabit, `loaddata` tekrar çalıştırılabilir). Yeni soruyu listenin sonuna ekle. Yükleme: `loaddata fixtures/categories.json fixtures/questions_*.json`.
+
 ## Durum
-Faz 0–1 tamam (iskelet, modeller, admin, docker, CI, model testleri). Sıradaki: Faz 2 (soru havuzu), Faz 3 (API).
+Faz 0–2 tamam (iskelet, modeller, admin, docker, CI, 5×40 soru). Sorular insan kontrolü bekliyor. Sıradaki: Faz 3 (API).

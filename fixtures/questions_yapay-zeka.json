@@ -1,0 +1,1962 @@
+[
+ {
+  "model": "quiz.question",
+  "pk": 3001,
+  "fields": {
+   "category": 3,
+   "text": "\"Yapay zeka\" teriminin İngilizce kısaltması nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30010,
+  "fields": {
+   "question": 3001,
+   "text": "AI",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30011,
+  "fields": {
+   "question": 3001,
+   "text": "AR",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30012,
+  "fields": {
+   "question": 3001,
+   "text": "IT",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30013,
+  "fields": {
+   "question": 3001,
+   "text": "VR",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3002,
+  "fields": {
+   "category": 3,
+   "text": "Makine öğrenmesi (machine learning) en iyi nasıl tanımlanır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30020,
+  "fields": {
+   "question": 3002,
+   "text": "Bilgisayarların verilerden öğrenerek görev yapması",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30021,
+  "fields": {
+   "question": 3002,
+   "text": "Bilgisayarın fiziksel parçalarının bakımı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30022,
+  "fields": {
+   "question": 3002,
+   "text": "Bir programlama dilinin adı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30023,
+  "fields": {
+   "question": 3002,
+   "text": "Ağ güvenliği yöntemi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3003,
+  "fields": {
+   "category": 3,
+   "text": "Derin öğrenme (deep learning) hangi yapıya dayanır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30030,
+  "fields": {
+   "question": 3003,
+   "text": "Çok katmanlı yapay sinir ağlarına",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30031,
+  "fields": {
+   "question": 3003,
+   "text": "Tek katmanlı tablolara",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30032,
+  "fields": {
+   "question": 3003,
+   "text": "İlişkisel veritabanlarına",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30033,
+  "fields": {
+   "question": 3003,
+   "text": "Ağ yönlendiricilerine",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3004,
+  "fields": {
+   "category": 3,
+   "text": "Turing testi neyi ölçmeyi amaçlar?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30040,
+  "fields": {
+   "question": 3004,
+   "text": "Bir makinenin insan gibi davranıp davranamadığını",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30041,
+  "fields": {
+   "question": 3004,
+   "text": "İşlemci hızını",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30042,
+  "fields": {
+   "question": 3004,
+   "text": "Bellek kapasitesini",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30043,
+  "fields": {
+   "question": 3004,
+   "text": "Ağ gecikmesini",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3005,
+  "fields": {
+   "category": 3,
+   "text": "ChatGPT'yi hangi şirket geliştirmiştir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30050,
+  "fields": {
+   "question": 3005,
+   "text": "OpenAI",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30051,
+  "fields": {
+   "question": 3005,
+   "text": "Google",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30052,
+  "fields": {
+   "question": 3005,
+   "text": "Apple",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30053,
+  "fields": {
+   "question": 3005,
+   "text": "Tesla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3006,
+  "fields": {
+   "category": 3,
+   "text": "Claude modellerini hangi şirket geliştirmektedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30060,
+  "fields": {
+   "question": 3006,
+   "text": "Anthropic",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30061,
+  "fields": {
+   "question": 3006,
+   "text": "OpenAI",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30062,
+  "fields": {
+   "question": 3006,
+   "text": "Meta",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30063,
+  "fields": {
+   "question": 3006,
+   "text": "NVIDIA",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3007,
+  "fields": {
+   "category": 3,
+   "text": "Gemini yapay zeka modelleri hangi şirkete aittir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30070,
+  "fields": {
+   "question": 3007,
+   "text": "Google",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30071,
+  "fields": {
+   "question": 3007,
+   "text": "Amazon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30072,
+  "fields": {
+   "question": 3007,
+   "text": "Microsoft",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30073,
+  "fields": {
+   "question": 3007,
+   "text": "IBM",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3008,
+  "fields": {
+   "category": 3,
+   "text": "Transformer mimarisini tanıtan makalenin adı nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30080,
+  "fields": {
+   "question": 3008,
+   "text": "Attention Is All You Need",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30081,
+  "fields": {
+   "question": 3008,
+   "text": "Deep Residual Learning",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30082,
+  "fields": {
+   "question": 3008,
+   "text": "ImageNet Classification",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30083,
+  "fields": {
+   "question": 3008,
+   "text": "Generative Adversarial Nets",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3009,
+  "fields": {
+   "category": 3,
+   "text": "Transformer mimarisinin temel mekanizması hangisidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30090,
+  "fields": {
+   "question": 3009,
+   "text": "Dikkat (attention)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30091,
+  "fields": {
+   "question": 3009,
+   "text": "Hash tablosu",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30092,
+  "fields": {
+   "question": 3009,
+   "text": "Sıralama ağacı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30093,
+  "fields": {
+   "question": 3009,
+   "text": "Önbellekleme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3010,
+  "fields": {
+   "category": 3,
+   "text": "LLM kısaltması neyi ifade eder?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30100,
+  "fields": {
+   "question": 3010,
+   "text": "Large Language Model",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30101,
+  "fields": {
+   "question": 3010,
+   "text": "Low Level Machine",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30102,
+  "fields": {
+   "question": 3010,
+   "text": "Linear Learning Method",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30103,
+  "fields": {
+   "question": 3010,
+   "text": "Logical Language Module",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3011,
+  "fields": {
+   "category": 3,
+   "text": "GPT kısaltmasının açılımı nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30110,
+  "fields": {
+   "question": 3011,
+   "text": "Generative Pre-trained Transformer",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30111,
+  "fields": {
+   "question": 3011,
+   "text": "General Purpose Tool",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30112,
+  "fields": {
+   "question": 3011,
+   "text": "Graphical Processing Technology",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30113,
+  "fields": {
+   "question": 3011,
+   "text": "Global Prediction Table",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3012,
+  "fields": {
+   "category": 3,
+   "text": "Aşırı öğrenme (overfitting) nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30120,
+  "fields": {
+   "question": 3012,
+   "text": "Modelin eğitim verisini ezberleyip yeni verilerde kötü performans göstermesi",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30121,
+  "fields": {
+   "question": 3012,
+   "text": "Modelin çok hızlı çalışması",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30122,
+  "fields": {
+   "question": 3012,
+   "text": "Modelin hiç öğrenememesi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30123,
+  "fields": {
+   "question": 3012,
+   "text": "Verinin fazla temizlenmesi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3013,
+  "fields": {
+   "category": 3,
+   "text": "Denetimli öğrenmede (supervised learning) eğitim verisinin özelliği nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30130,
+  "fields": {
+   "question": 3013,
+   "text": "Etiketlidir",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30131,
+  "fields": {
+   "question": 3013,
+   "text": "Ses içerir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30132,
+  "fields": {
+   "question": 3013,
+   "text": "Rastgeledir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30133,
+  "fields": {
+   "question": 3013,
+   "text": "Şifrelidir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3014,
+  "fields": {
+   "category": 3,
+   "text": "Kümeleme (clustering) hangi öğrenme türüne örnektir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30140,
+  "fields": {
+   "question": 3014,
+   "text": "Denetimsiz öğrenme",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30141,
+  "fields": {
+   "question": 3014,
+   "text": "Denetimli öğrenme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30142,
+  "fields": {
+   "question": 3014,
+   "text": "Pekiştirmeli öğrenme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30143,
+  "fields": {
+   "question": 3014,
+   "text": "Aktarmalı öğrenme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3015,
+  "fields": {
+   "category": 3,
+   "text": "Pekiştirmeli öğrenme (reinforcement learning) nasıl çalışır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30150,
+  "fields": {
+   "question": 3015,
+   "text": "Ödül ve ceza ile deneme yanılma yoluyla",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30151,
+  "fields": {
+   "question": 3015,
+   "text": "Hazır cevap tablosundan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30152,
+  "fields": {
+   "question": 3015,
+   "text": "Rastgele sayı üreterek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30153,
+  "fields": {
+   "question": 3015,
+   "text": "Verileri silerek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3016,
+  "fields": {
+   "category": 3,
+   "text": "AlphaGo hangi oyunda dünya şampiyonu bir oyuncuyu yenmiştir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30160,
+  "fields": {
+   "question": 3016,
+   "text": "Go",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30161,
+  "fields": {
+   "question": 3016,
+   "text": "Satranç",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30162,
+  "fields": {
+   "question": 3016,
+   "text": "Tavla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30163,
+  "fields": {
+   "question": 3016,
+   "text": "Poker",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3017,
+  "fields": {
+   "category": 3,
+   "text": "IBM'in Deep Blue bilgisayarı hangi şampiyonu satrançta yenmiştir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30170,
+  "fields": {
+   "question": 3017,
+   "text": "Garry Kasparov",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30171,
+  "fields": {
+   "question": 3017,
+   "text": "Magnus Carlsen",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30172,
+  "fields": {
+   "question": 3017,
+   "text": "Bobby Fischer",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30173,
+  "fields": {
+   "question": 3017,
+   "text": "Viswanathan Anand",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3018,
+  "fields": {
+   "category": 3,
+   "text": "Yapay sinir ağlarında aktivasyon fonksiyonlarının temel amacı nedir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30180,
+  "fields": {
+   "question": 3018,
+   "text": "Ağa doğrusal olmayan davranış kazandırmak",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30181,
+  "fields": {
+   "question": 3018,
+   "text": "Veriyi sıkıştırmak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30182,
+  "fields": {
+   "question": 3018,
+   "text": "Ağı hızlı kapatmak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30183,
+  "fields": {
+   "question": 3018,
+   "text": "Veriyi şifrelemek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3019,
+  "fields": {
+   "category": 3,
+   "text": "ReLU nedir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30190,
+  "fields": {
+   "question": 3019,
+   "text": "Bir aktivasyon fonksiyonu",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30191,
+  "fields": {
+   "question": 3019,
+   "text": "Bir veritabanı türü",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30192,
+  "fields": {
+   "question": 3019,
+   "text": "Bir programlama dili",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30193,
+  "fields": {
+   "question": 3019,
+   "text": "Bir ağ protokolü",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3020,
+  "fields": {
+   "category": 3,
+   "text": "Gradyan inişi (gradient descent) ne yapar?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30200,
+  "fields": {
+   "question": 3020,
+   "text": "Kaybı azaltacak şekilde model parametrelerini günceller",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30201,
+  "fields": {
+   "question": 3020,
+   "text": "Veriyi sıralar",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30202,
+  "fields": {
+   "question": 3020,
+   "text": "Modeli siler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30203,
+  "fields": {
+   "question": 3020,
+   "text": "Görüntüyü yeniden boyutlandırır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3021,
+  "fields": {
+   "category": 3,
+   "text": "Aşağıdakilerden hangisi Google'ın geliştirdiği derin öğrenme kütüphanesidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30210,
+  "fields": {
+   "question": 3021,
+   "text": "TensorFlow",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30211,
+  "fields": {
+   "question": 3021,
+   "text": "Django",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30212,
+  "fields": {
+   "question": 3021,
+   "text": "jQuery",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30213,
+  "fields": {
+   "question": 3021,
+   "text": "Flask",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3022,
+  "fields": {
+   "category": 3,
+   "text": "PyTorch kütüphanesini hangi şirket geliştirmiştir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30220,
+  "fields": {
+   "question": 3022,
+   "text": "Meta (Facebook)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30221,
+  "fields": {
+   "question": 3022,
+   "text": "Google",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30222,
+  "fields": {
+   "question": 3022,
+   "text": "Amazon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30223,
+  "fields": {
+   "question": 3022,
+   "text": "Intel",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3023,
+  "fields": {
+   "category": 3,
+   "text": "Yapay zeka çalışmalarında en yaygın kullanılan programlama dili hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30230,
+  "fields": {
+   "question": 3023,
+   "text": "Python",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30231,
+  "fields": {
+   "question": 3023,
+   "text": "COBOL",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30232,
+  "fields": {
+   "question": 3023,
+   "text": "Fortran",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30233,
+  "fields": {
+   "question": 3023,
+   "text": "Pascal",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3024,
+  "fields": {
+   "category": 3,
+   "text": "Evrişimli sinir ağları (CNN) en çok hangi tür veri için kullanılır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30240,
+  "fields": {
+   "question": 3024,
+   "text": "Görüntü",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30241,
+  "fields": {
+   "question": 3024,
+   "text": "Tablo",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30242,
+  "fields": {
+   "question": 3024,
+   "text": "Ses dalgası kaydı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30243,
+  "fields": {
+   "question": 3024,
+   "text": "Zaman damgası",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3025,
+  "fields": {
+   "category": 3,
+   "text": "NLP (Natural Language Processing) Türkçede neyi ifade eder?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30250,
+  "fields": {
+   "question": 3025,
+   "text": "Doğal dil işleme",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30251,
+  "fields": {
+   "question": 3025,
+   "text": "Ağ katmanı protokolü",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30252,
+  "fields": {
+   "question": 3025,
+   "text": "Sayısal doğrusal programlama",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30253,
+  "fields": {
+   "question": 3025,
+   "text": "Yeni nesil program",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3026,
+  "fields": {
+   "category": 3,
+   "text": "Büyük dil modellerinde \"halüsinasyon\" ne demektir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30260,
+  "fields": {
+   "question": 3026,
+   "text": "Modelin yanlış bilgiyi güvenle üretmesi",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30261,
+  "fields": {
+   "question": 3026,
+   "text": "Modelin çok yavaş çalışması",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30262,
+  "fields": {
+   "question": 3026,
+   "text": "Modelin görsel üretmesi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30263,
+  "fields": {
+   "question": 3026,
+   "text": "Modelin şifre istemesi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3027,
+  "fields": {
+   "category": 3,
+   "text": "Yapay zekada \"prompt\" nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30270,
+  "fields": {
+   "question": 3027,
+   "text": "Modele verilen girdi veya talimat",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30271,
+  "fields": {
+   "question": 3027,
+   "text": "Modelin çıktı dosyası",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30272,
+  "fields": {
+   "question": 3027,
+   "text": "Eğitim donanımı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30273,
+  "fields": {
+   "question": 3027,
+   "text": "Bir ağ protokolü",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3028,
+  "fields": {
+   "category": 3,
+   "text": "Büyük dil modellerinde \"token\" nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30280,
+  "fields": {
+   "question": 3028,
+   "text": "Metnin modelin işlediği küçük parçası",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30281,
+  "fields": {
+   "question": 3028,
+   "text": "Kullanıcı şifresi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30282,
+  "fields": {
+   "question": 3028,
+   "text": "Ödeme birimi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30283,
+  "fields": {
+   "question": 3028,
+   "text": "Bir ağ adresi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3029,
+  "fields": {
+   "category": 3,
+   "text": "GAN (Generative Adversarial Network) yapısında hangi iki ağ birbiriyle yarışır?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30290,
+  "fields": {
+   "question": 3029,
+   "text": "Üretici ve ayırt edici",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30291,
+  "fields": {
+   "question": 3029,
+   "text": "Sınıflandırıcı ve kümeleyici",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30292,
+  "fields": {
+   "question": 3029,
+   "text": "Kodlayıcı ve sıkıştırıcı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30293,
+  "fields": {
+   "question": 3029,
+   "text": "Girdi ve çıktı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3030,
+  "fields": {
+   "category": 3,
+   "text": "Aşağıdakilerden hangisi metinden görüntü üreten bir modeldir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30300,
+  "fields": {
+   "question": 3030,
+   "text": "DALL-E",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30301,
+  "fields": {
+   "question": 3030,
+   "text": "BERT",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30302,
+  "fields": {
+   "question": 3030,
+   "text": "AlphaGo",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30303,
+  "fields": {
+   "question": 3030,
+   "text": "Deep Blue",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3031,
+  "fields": {
+   "category": 3,
+   "text": "Siri hangi şirketin sesli asistanıdır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30310,
+  "fields": {
+   "question": 3031,
+   "text": "Apple",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30311,
+  "fields": {
+   "question": 3031,
+   "text": "Google",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30312,
+  "fields": {
+   "question": 3031,
+   "text": "Amazon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30313,
+  "fields": {
+   "question": 3031,
+   "text": "Microsoft",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3032,
+  "fields": {
+   "category": 3,
+   "text": "Alexa hangi şirketin sesli asistanıdır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30320,
+  "fields": {
+   "question": 3032,
+   "text": "Amazon",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30321,
+  "fields": {
+   "question": 3032,
+   "text": "Apple",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30322,
+  "fields": {
+   "question": 3032,
+   "text": "Samsung",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30323,
+  "fields": {
+   "question": 3032,
+   "text": "Meta",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3033,
+  "fields": {
+   "category": 3,
+   "text": "\"Yapay zeka\" terimini ilk kullanan bilim insanı kimdir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30330,
+  "fields": {
+   "question": 3033,
+   "text": "John McCarthy",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30331,
+  "fields": {
+   "question": 3033,
+   "text": "Alan Turing",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30332,
+  "fields": {
+   "question": 3033,
+   "text": "Geoffrey Hinton",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30333,
+  "fields": {
+   "question": 3033,
+   "text": "Elon Musk",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3034,
+  "fields": {
+   "category": 3,
+   "text": "Geoffrey Hinton hangi alandaki çalışmalarıyla tanınır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30340,
+  "fields": {
+   "question": 3034,
+   "text": "Derin öğrenme ve yapay sinir ağları",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30341,
+  "fields": {
+   "question": 3034,
+   "text": "Kuantum bilgisayarlar",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30342,
+  "fields": {
+   "question": 3034,
+   "text": "Genetik mühendisliği",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30343,
+  "fields": {
+   "question": 3034,
+   "text": "Robot donanımı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3035,
+  "fields": {
+   "category": 3,
+   "text": "Veriyi eğitim ve test olarak ayırmanın amacı nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30350,
+  "fields": {
+   "question": 3035,
+   "text": "Modelin görmediği veride performansını ölçmek",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30351,
+  "fields": {
+   "question": 3035,
+   "text": "Modeli yavaşlatmak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30352,
+  "fields": {
+   "question": 3035,
+   "text": "Veri boyutunu artırmak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30353,
+  "fields": {
+   "question": 3035,
+   "text": "Modeli şifrelemek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3036,
+  "fields": {
+   "category": 3,
+   "text": "Yapay zekada \"önyargı\" (bias) çoğunlukla nereden kaynaklanır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30360,
+  "fields": {
+   "question": 3036,
+   "text": "Eğitim verisindeki dengesizlikten",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30361,
+  "fields": {
+   "question": 3036,
+   "text": "Ekran parlaklığından",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30362,
+  "fields": {
+   "question": 3036,
+   "text": "İnternet hızından",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30363,
+  "fields": {
+   "question": 3036,
+   "text": "Klavye düzeninden",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3037,
+  "fields": {
+   "category": 3,
+   "text": "Aşağıdakilerden hangisi bir makine öğrenmesi algoritmasıdır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30370,
+  "fields": {
+   "question": 3037,
+   "text": "Rastgele orman (Random Forest)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30371,
+  "fields": {
+   "question": 3037,
+   "text": "Hızlı sıralama (Quick sort)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30372,
+  "fields": {
+   "question": 3037,
+   "text": "Kabarcık sıralama (Bubble sort)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30373,
+  "fields": {
+   "question": 3037,
+   "text": "Dijkstra",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3038,
+  "fields": {
+   "category": 3,
+   "text": "k-means algoritması ne yapar?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30380,
+  "fields": {
+   "question": 3038,
+   "text": "Verileri k adet kümeye ayırır",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30381,
+  "fields": {
+   "question": 3038,
+   "text": "Metni çevirir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30382,
+  "fields": {
+   "question": 3038,
+   "text": "Görüntüyü büyütür",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30383,
+  "fields": {
+   "question": 3038,
+   "text": "Şifreyi çözer",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3039,
+  "fields": {
+   "category": 3,
+   "text": "RAG (Retrieval-Augmented Generation) yaklaşımında model nasıl desteklenir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30390,
+  "fields": {
+   "question": 3039,
+   "text": "Dışarıdan getirilen belgelerle",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30391,
+  "fields": {
+   "question": 3039,
+   "text": "Daha fazla GPU ile",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30392,
+  "fields": {
+   "question": 3039,
+   "text": "Daha kısa promptlarla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30393,
+  "fields": {
+   "question": 3039,
+   "text": "Rastgele sayılarla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 3040,
+  "fields": {
+   "category": 3,
+   "text": "Önceden eğitilmiş bir modeli belirli bir göreve uyarlamak için ek veriyle eğitmeye ne denir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30400,
+  "fields": {
+   "question": 3040,
+   "text": "İnce ayar (fine-tuning)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30401,
+  "fields": {
+   "question": 3040,
+   "text": "Derleme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30402,
+  "fields": {
+   "question": 3040,
+   "text": "Sıkıştırma",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 30403,
+  "fields": {
+   "question": 3040,
+   "text": "Önbellekleme",
+   "is_correct": false
+  }
+ }
+]

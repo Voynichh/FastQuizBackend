@@ -1,0 +1,1962 @@
+[
+ {
+  "model": "quiz.question",
+  "pk": 4001,
+  "fields": {
+   "category": 4,
+   "text": "Türkiye'nin başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40010,
+  "fields": {
+   "question": 4001,
+   "text": "Ankara",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40011,
+  "fields": {
+   "question": 4001,
+   "text": "İstanbul",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40012,
+  "fields": {
+   "question": 4001,
+   "text": "İzmir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40013,
+  "fields": {
+   "question": 4001,
+   "text": "Bursa",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4002,
+  "fields": {
+   "category": 4,
+   "text": "Fransa'nın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40020,
+  "fields": {
+   "question": 4002,
+   "text": "Paris",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40021,
+  "fields": {
+   "question": 4002,
+   "text": "Lyon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40022,
+  "fields": {
+   "question": 4002,
+   "text": "Marsilya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40023,
+  "fields": {
+   "question": 4002,
+   "text": "Nice",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4003,
+  "fields": {
+   "category": 4,
+   "text": "Almanya'nın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40030,
+  "fields": {
+   "question": 4003,
+   "text": "Berlin",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40031,
+  "fields": {
+   "question": 4003,
+   "text": "Münih",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40032,
+  "fields": {
+   "question": 4003,
+   "text": "Hamburg",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40033,
+  "fields": {
+   "question": 4003,
+   "text": "Frankfurt",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4004,
+  "fields": {
+   "category": 4,
+   "text": "İtalya'nın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40040,
+  "fields": {
+   "question": 4004,
+   "text": "Roma",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40041,
+  "fields": {
+   "question": 4004,
+   "text": "Milano",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40042,
+  "fields": {
+   "question": 4004,
+   "text": "Napoli",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40043,
+  "fields": {
+   "question": 4004,
+   "text": "Venedik",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4005,
+  "fields": {
+   "category": 4,
+   "text": "İspanya'nın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40050,
+  "fields": {
+   "question": 4005,
+   "text": "Madrid",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40051,
+  "fields": {
+   "question": 4005,
+   "text": "Barselona",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40052,
+  "fields": {
+   "question": 4005,
+   "text": "Sevilla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40053,
+  "fields": {
+   "question": 4005,
+   "text": "Valensiya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4006,
+  "fields": {
+   "category": 4,
+   "text": "Japonya'nın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40060,
+  "fields": {
+   "question": 4006,
+   "text": "Tokyo",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40061,
+  "fields": {
+   "question": 4006,
+   "text": "Kyoto",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40062,
+  "fields": {
+   "question": 4006,
+   "text": "Osaka",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40063,
+  "fields": {
+   "question": 4006,
+   "text": "Hiroşima",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4007,
+  "fields": {
+   "category": 4,
+   "text": "Yunanistan'ın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40070,
+  "fields": {
+   "question": 4007,
+   "text": "Atina",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40071,
+  "fields": {
+   "question": 4007,
+   "text": "Selanik",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40072,
+  "fields": {
+   "question": 4007,
+   "text": "Girit",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40073,
+  "fields": {
+   "question": 4007,
+   "text": "Patras",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4008,
+  "fields": {
+   "category": 4,
+   "text": "Mısır'ın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40080,
+  "fields": {
+   "question": 4008,
+   "text": "Kahire",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40081,
+  "fields": {
+   "question": 4008,
+   "text": "İskenderiye",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40082,
+  "fields": {
+   "question": 4008,
+   "text": "Luksor",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40083,
+  "fields": {
+   "question": 4008,
+   "text": "Asvan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4009,
+  "fields": {
+   "category": 4,
+   "text": "Rusya'nın başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40090,
+  "fields": {
+   "question": 4009,
+   "text": "Moskova",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40091,
+  "fields": {
+   "question": 4009,
+   "text": "Saint Petersburg",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40092,
+  "fields": {
+   "question": 4009,
+   "text": "Kazan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40093,
+  "fields": {
+   "question": 4009,
+   "text": "Novosibirsk",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4010,
+  "fields": {
+   "category": 4,
+   "text": "Çin'in başkenti neresidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40100,
+  "fields": {
+   "question": 4010,
+   "text": "Pekin",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40101,
+  "fields": {
+   "question": 4010,
+   "text": "Şanghay",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40102,
+  "fields": {
+   "question": 4010,
+   "text": "Hong Kong",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40103,
+  "fields": {
+   "question": 4010,
+   "text": "Guangzhou",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4011,
+  "fields": {
+   "category": 4,
+   "text": "Avustralya'nın başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40110,
+  "fields": {
+   "question": 4011,
+   "text": "Canberra",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40111,
+  "fields": {
+   "question": 4011,
+   "text": "Sydney",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40112,
+  "fields": {
+   "question": 4011,
+   "text": "Melbourne",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40113,
+  "fields": {
+   "question": 4011,
+   "text": "Brisbane",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4012,
+  "fields": {
+   "category": 4,
+   "text": "Kanada'nın başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40120,
+  "fields": {
+   "question": 4012,
+   "text": "Ottawa",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40121,
+  "fields": {
+   "question": 4012,
+   "text": "Toronto",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40122,
+  "fields": {
+   "question": 4012,
+   "text": "Vancouver",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40123,
+  "fields": {
+   "question": 4012,
+   "text": "Montreal",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4013,
+  "fields": {
+   "category": 4,
+   "text": "Brezilya'nın başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40130,
+  "fields": {
+   "question": 4013,
+   "text": "Brasília",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40131,
+  "fields": {
+   "question": 4013,
+   "text": "Rio de Janeiro",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40132,
+  "fields": {
+   "question": 4013,
+   "text": "São Paulo",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40133,
+  "fields": {
+   "question": 4013,
+   "text": "Salvador",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4014,
+  "fields": {
+   "category": 4,
+   "text": "Hindistan'ın başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40140,
+  "fields": {
+   "question": 4014,
+   "text": "Yeni Delhi",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40141,
+  "fields": {
+   "question": 4014,
+   "text": "Mumbai",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40142,
+  "fields": {
+   "question": 4014,
+   "text": "Kalküta",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40143,
+  "fields": {
+   "question": 4014,
+   "text": "Bangalore",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4015,
+  "fields": {
+   "category": 4,
+   "text": "Güney Kore'nin başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40150,
+  "fields": {
+   "question": 4015,
+   "text": "Seul",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40151,
+  "fields": {
+   "question": 4015,
+   "text": "Busan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40152,
+  "fields": {
+   "question": 4015,
+   "text": "Pyongyang",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40153,
+  "fields": {
+   "question": 4015,
+   "text": "Tokyo",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4016,
+  "fields": {
+   "category": 4,
+   "text": "Arjantin'in başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40160,
+  "fields": {
+   "question": 4016,
+   "text": "Buenos Aires",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40161,
+  "fields": {
+   "question": 4016,
+   "text": "Santiago",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40162,
+  "fields": {
+   "question": 4016,
+   "text": "Lima",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40163,
+  "fields": {
+   "question": 4016,
+   "text": "Montevideo",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4017,
+  "fields": {
+   "category": 4,
+   "text": "Kenya'nın başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40170,
+  "fields": {
+   "question": 4017,
+   "text": "Nairobi",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40171,
+  "fields": {
+   "question": 4017,
+   "text": "Mombasa",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40172,
+  "fields": {
+   "question": 4017,
+   "text": "Kampala",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40173,
+  "fields": {
+   "question": 4017,
+   "text": "Addis Ababa",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4018,
+  "fields": {
+   "category": 4,
+   "text": "Norveç'in başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40180,
+  "fields": {
+   "question": 4018,
+   "text": "Oslo",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40181,
+  "fields": {
+   "question": 4018,
+   "text": "Stockholm",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40182,
+  "fields": {
+   "question": 4018,
+   "text": "Helsinki",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40183,
+  "fields": {
+   "question": 4018,
+   "text": "Kopenhag",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4019,
+  "fields": {
+   "category": 4,
+   "text": "Avusturya'nın başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40190,
+  "fields": {
+   "question": 4019,
+   "text": "Viyana",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40191,
+  "fields": {
+   "question": 4019,
+   "text": "Salzburg",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40192,
+  "fields": {
+   "question": 4019,
+   "text": "Zürih",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40193,
+  "fields": {
+   "question": 4019,
+   "text": "Budapeşte",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4020,
+  "fields": {
+   "category": 4,
+   "text": "Polonya'nın başkenti neresidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40200,
+  "fields": {
+   "question": 4020,
+   "text": "Varşova",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40201,
+  "fields": {
+   "question": 4020,
+   "text": "Krakow",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40202,
+  "fields": {
+   "question": 4020,
+   "text": "Prag",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40203,
+  "fields": {
+   "question": 4020,
+   "text": "Gdansk",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4021,
+  "fields": {
+   "category": 4,
+   "text": "Yeni Zelanda'nın başkenti neresidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40210,
+  "fields": {
+   "question": 4021,
+   "text": "Wellington",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40211,
+  "fields": {
+   "question": 4021,
+   "text": "Auckland",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40212,
+  "fields": {
+   "question": 4021,
+   "text": "Christchurch",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40213,
+  "fields": {
+   "question": 4021,
+   "text": "Sydney",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4022,
+  "fields": {
+   "category": 4,
+   "text": "Nijerya'nın başkenti neresidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40220,
+  "fields": {
+   "question": 4022,
+   "text": "Abuja",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40221,
+  "fields": {
+   "question": 4022,
+   "text": "Lagos",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40222,
+  "fields": {
+   "question": 4022,
+   "text": "Accra",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40223,
+  "fields": {
+   "question": 4022,
+   "text": "Nairobi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4023,
+  "fields": {
+   "category": 4,
+   "text": "İsviçre'nin başkenti neresidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40230,
+  "fields": {
+   "question": 4023,
+   "text": "Bern",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40231,
+  "fields": {
+   "question": 4023,
+   "text": "Zürih",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40232,
+  "fields": {
+   "question": 4023,
+   "text": "Cenevre",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40233,
+  "fields": {
+   "question": 4023,
+   "text": "Basel",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4024,
+  "fields": {
+   "category": 4,
+   "text": "Pakistan'ın başkenti neresidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40240,
+  "fields": {
+   "question": 4024,
+   "text": "İslamabad",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40241,
+  "fields": {
+   "question": 4024,
+   "text": "Karaçi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40242,
+  "fields": {
+   "question": 4024,
+   "text": "Lahor",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40243,
+  "fields": {
+   "question": 4024,
+   "text": "Delhi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4025,
+  "fields": {
+   "category": 4,
+   "text": "Dünyanın yüzölçümü bakımından en büyük ülkesi hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40250,
+  "fields": {
+   "question": 4025,
+   "text": "Rusya",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40251,
+  "fields": {
+   "question": 4025,
+   "text": "Kanada",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40252,
+  "fields": {
+   "question": 4025,
+   "text": "Çin",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40253,
+  "fields": {
+   "question": 4025,
+   "text": "ABD",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4026,
+  "fields": {
+   "category": 4,
+   "text": "Nüfusu en kalabalık ülkelerden biri olup 2023'ten itibaren Çin'i geçen ülke hangisidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40260,
+  "fields": {
+   "question": 4026,
+   "text": "Hindistan",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40261,
+  "fields": {
+   "question": 4026,
+   "text": "ABD",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40262,
+  "fields": {
+   "question": 4026,
+   "text": "Endonezya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40263,
+  "fields": {
+   "question": 4026,
+   "text": "Brezilya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4027,
+  "fields": {
+   "category": 4,
+   "text": "Dünyanın yüzölçümü bakımından en küçük ülkesi hangisidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40270,
+  "fields": {
+   "question": 4027,
+   "text": "Vatikan",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40271,
+  "fields": {
+   "question": 4027,
+   "text": "Monako",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40272,
+  "fields": {
+   "question": 4027,
+   "text": "San Marino",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40273,
+  "fields": {
+   "question": 4027,
+   "text": "Malta",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4028,
+  "fields": {
+   "category": 4,
+   "text": "Eyfel Kulesi hangi ülkededir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40280,
+  "fields": {
+   "question": 4028,
+   "text": "Fransa",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40281,
+  "fields": {
+   "question": 4028,
+   "text": "İtalya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40282,
+  "fields": {
+   "question": 4028,
+   "text": "Belçika",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40283,
+  "fields": {
+   "question": 4028,
+   "text": "İspanya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4029,
+  "fields": {
+   "category": 4,
+   "text": "Pisa Kulesi hangi ülkededir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40290,
+  "fields": {
+   "question": 4029,
+   "text": "İtalya",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40291,
+  "fields": {
+   "question": 4029,
+   "text": "Fransa",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40292,
+  "fields": {
+   "question": 4029,
+   "text": "Yunanistan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40293,
+  "fields": {
+   "question": 4029,
+   "text": "Portekiz",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4030,
+  "fields": {
+   "category": 4,
+   "text": "Taj Mahal hangi ülkededir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40300,
+  "fields": {
+   "question": 4030,
+   "text": "Hindistan",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40301,
+  "fields": {
+   "question": 4030,
+   "text": "Pakistan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40302,
+  "fields": {
+   "question": 4030,
+   "text": "Nepal",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40303,
+  "fields": {
+   "question": 4030,
+   "text": "İran",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4031,
+  "fields": {
+   "category": 4,
+   "text": "Gize Piramitleri hangi ülkededir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40310,
+  "fields": {
+   "question": 4031,
+   "text": "Mısır",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40311,
+  "fields": {
+   "question": 4031,
+   "text": "Meksika",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40312,
+  "fields": {
+   "question": 4031,
+   "text": "Sudan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40313,
+  "fields": {
+   "question": 4031,
+   "text": "Libya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4032,
+  "fields": {
+   "category": 4,
+   "text": "Çin Seddi hangi ülkededir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40320,
+  "fields": {
+   "question": 4032,
+   "text": "Çin",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40321,
+  "fields": {
+   "question": 4032,
+   "text": "Moğolistan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40322,
+  "fields": {
+   "question": 4032,
+   "text": "Japonya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40323,
+  "fields": {
+   "question": 4032,
+   "text": "Kore",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4033,
+  "fields": {
+   "category": 4,
+   "text": "Machu Picchu antik kenti hangi ülkededir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40330,
+  "fields": {
+   "question": 4033,
+   "text": "Peru",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40331,
+  "fields": {
+   "question": 4033,
+   "text": "Meksika",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40332,
+  "fields": {
+   "question": 4033,
+   "text": "Şili",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40333,
+  "fields": {
+   "question": 4033,
+   "text": "Kolombiya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4034,
+  "fields": {
+   "category": 4,
+   "text": "Büyük Set Resifi hangi ülkenin kıyısındadır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40340,
+  "fields": {
+   "question": 4034,
+   "text": "Avustralya",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40341,
+  "fields": {
+   "question": 4034,
+   "text": "Endonezya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40342,
+  "fields": {
+   "question": 4034,
+   "text": "Yeni Zelanda",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40343,
+  "fields": {
+   "question": 4034,
+   "text": "Filipinler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4035,
+  "fields": {
+   "category": 4,
+   "text": "Petra antik kenti hangi ülkededir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40350,
+  "fields": {
+   "question": 4035,
+   "text": "Ürdün",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40351,
+  "fields": {
+   "question": 4035,
+   "text": "Suriye",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40352,
+  "fields": {
+   "question": 4035,
+   "text": "Lübnan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40353,
+  "fields": {
+   "question": 4035,
+   "text": "Irak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4036,
+  "fields": {
+   "category": 4,
+   "text": "Angkor Wat tapınak kompleksi hangi ülkededir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40360,
+  "fields": {
+   "question": 4036,
+   "text": "Kamboçya",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40361,
+  "fields": {
+   "question": 4036,
+   "text": "Tayland",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40362,
+  "fields": {
+   "question": 4036,
+   "text": "Vietnam",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40363,
+  "fields": {
+   "question": 4036,
+   "text": "Myanmar",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4037,
+  "fields": {
+   "category": 4,
+   "text": "Everest Dağı hangi iki ülkenin sınırında yer alır?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40370,
+  "fields": {
+   "question": 4037,
+   "text": "Nepal ve Çin",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40371,
+  "fields": {
+   "question": 4037,
+   "text": "Hindistan ve Pakistan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40372,
+  "fields": {
+   "question": 4037,
+   "text": "Nepal ve Hindistan",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40373,
+  "fields": {
+   "question": 4037,
+   "text": "Bhutan ve Çin",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4038,
+  "fields": {
+   "category": 4,
+   "text": "Bayrağında kırmızı bir daire bulunan ülke hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40380,
+  "fields": {
+   "question": 4038,
+   "text": "Japonya",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40381,
+  "fields": {
+   "question": 4038,
+   "text": "Güney Kore",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40382,
+  "fields": {
+   "question": 4038,
+   "text": "Türkiye",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40383,
+  "fields": {
+   "question": 4038,
+   "text": "Tayland",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4039,
+  "fields": {
+   "category": 4,
+   "text": "Bayrağında akçaağaç yaprağı bulunan ülke hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40390,
+  "fields": {
+   "question": 4039,
+   "text": "Kanada",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40391,
+  "fields": {
+   "question": 4039,
+   "text": "Avustralya",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40392,
+  "fields": {
+   "question": 4039,
+   "text": "İrlanda",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40393,
+  "fields": {
+   "question": 4039,
+   "text": "Yeni Zelanda",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 4040,
+  "fields": {
+   "category": 4,
+   "text": "Özgürlük Anıtı hangi ülkededir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40400,
+  "fields": {
+   "question": 4040,
+   "text": "ABD",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40401,
+  "fields": {
+   "question": 4040,
+   "text": "Fransa",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40402,
+  "fields": {
+   "question": 4040,
+   "text": "Kanada",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 40403,
+  "fields": {
+   "question": 4040,
+   "text": "İngiltere",
+   "is_correct": false
+  }
+ }
+]

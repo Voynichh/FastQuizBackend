@@ -1,0 +1,1962 @@
+[
+ {
+  "model": "quiz.question",
+  "pk": 2001,
+  "fields": {
+   "category": 2,
+   "text": "1 byte kaç bitten oluşur?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20010,
+  "fields": {
+   "question": 2001,
+   "text": "8",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20011,
+  "fields": {
+   "question": 2001,
+   "text": "4",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20012,
+  "fields": {
+   "question": 2001,
+   "text": "10",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20013,
+  "fields": {
+   "question": 2001,
+   "text": "16",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2002,
+  "fields": {
+   "category": 2,
+   "text": "İkili (binary) 1010 sayısının onluk karşılığı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20020,
+  "fields": {
+   "question": 2002,
+   "text": "10",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20021,
+  "fields": {
+   "question": 2002,
+   "text": "8",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20022,
+  "fields": {
+   "question": 2002,
+   "text": "12",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20023,
+  "fields": {
+   "question": 2002,
+   "text": "5",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2003,
+  "fields": {
+   "category": 2,
+   "text": "Onaltılık (hexadecimal) sayı sisteminin tabanı kaçtır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20030,
+  "fields": {
+   "question": 2003,
+   "text": "16",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20031,
+  "fields": {
+   "question": 2003,
+   "text": "8",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20032,
+  "fields": {
+   "question": 2003,
+   "text": "10",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20033,
+  "fields": {
+   "question": 2003,
+   "text": "2",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2004,
+  "fields": {
+   "category": 2,
+   "text": "CPU'nun açılımı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20040,
+  "fields": {
+   "question": 2004,
+   "text": "Central Processing Unit",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20041,
+  "fields": {
+   "question": 2004,
+   "text": "Computer Personal Unit",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20042,
+  "fields": {
+   "question": 2004,
+   "text": "Central Program Utility",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20043,
+  "fields": {
+   "question": 2004,
+   "text": "Core Processing Update",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2005,
+  "fields": {
+   "category": 2,
+   "text": "RAM'in temel özelliği hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20050,
+  "fields": {
+   "question": 2005,
+   "text": "Elektrik kesilince içeriği silinir",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20051,
+  "fields": {
+   "question": 2005,
+   "text": "Verileri kalıcı olarak saklar",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20052,
+  "fields": {
+   "question": 2005,
+   "text": "Yalnızca okunabilir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20053,
+  "fields": {
+   "question": 2005,
+   "text": "Sadece ses işler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2006,
+  "fields": {
+   "category": 2,
+   "text": "Yığın (stack) veri yapısı hangi ilkeyle çalışır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20060,
+  "fields": {
+   "question": 2006,
+   "text": "LIFO (son giren ilk çıkar)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20061,
+  "fields": {
+   "question": 2006,
+   "text": "FIFO (ilk giren ilk çıkar)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20062,
+  "fields": {
+   "question": 2006,
+   "text": "Rastgele erişim",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20063,
+  "fields": {
+   "question": 2006,
+   "text": "Sıralı erişim",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2007,
+  "fields": {
+   "category": 2,
+   "text": "Kuyruk (queue) veri yapısı hangi ilkeyle çalışır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20070,
+  "fields": {
+   "question": 2007,
+   "text": "FIFO (ilk giren ilk çıkar)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20071,
+  "fields": {
+   "question": 2007,
+   "text": "LIFO (son giren ilk çıkar)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20072,
+  "fields": {
+   "question": 2007,
+   "text": "Rastgele erişim",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20073,
+  "fields": {
+   "question": 2007,
+   "text": "Ağırlıklı seçim",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2008,
+  "fields": {
+   "category": 2,
+   "text": "Sıralı bir dizide ikili arama (binary search) algoritmasının zaman karmaşıklığı nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20080,
+  "fields": {
+   "question": 2008,
+   "text": "O(log n)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20081,
+  "fields": {
+   "question": 2008,
+   "text": "O(n)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20082,
+  "fields": {
+   "question": 2008,
+   "text": "O(n²)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20083,
+  "fields": {
+   "question": 2008,
+   "text": "O(1)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2009,
+  "fields": {
+   "category": 2,
+   "text": "Kabarcık sıralamasının (bubble sort) en kötü durum zaman karmaşıklığı nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20090,
+  "fields": {
+   "question": 2009,
+   "text": "O(n²)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20091,
+  "fields": {
+   "question": 2009,
+   "text": "O(n)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20092,
+  "fields": {
+   "question": 2009,
+   "text": "O(log n)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20093,
+  "fields": {
+   "question": 2009,
+   "text": "O(n log n)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2010,
+  "fields": {
+   "category": 2,
+   "text": "OSI referans modelinde kaç katman vardır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20100,
+  "fields": {
+   "question": 2010,
+   "text": "7",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20101,
+  "fields": {
+   "question": 2010,
+   "text": "5",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20102,
+  "fields": {
+   "question": 2010,
+   "text": "4",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20103,
+  "fields": {
+   "question": 2010,
+   "text": "9",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2011,
+  "fields": {
+   "category": 2,
+   "text": "HTTPS varsayılan olarak hangi portu kullanır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20110,
+  "fields": {
+   "question": 2011,
+   "text": "443",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20111,
+  "fields": {
+   "question": 2011,
+   "text": "80",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20112,
+  "fields": {
+   "question": 2011,
+   "text": "22",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20113,
+  "fields": {
+   "question": 2011,
+   "text": "25",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2012,
+  "fields": {
+   "category": 2,
+   "text": "SSH varsayılan olarak hangi portu kullanır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20120,
+  "fields": {
+   "question": 2012,
+   "text": "22",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20121,
+  "fields": {
+   "question": 2012,
+   "text": "21",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20122,
+  "fields": {
+   "question": 2012,
+   "text": "25",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20123,
+  "fields": {
+   "question": 2012,
+   "text": "443",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2013,
+  "fields": {
+   "category": 2,
+   "text": "IPv4 adresleri kaç bittir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20130,
+  "fields": {
+   "question": 2013,
+   "text": "32",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20131,
+  "fields": {
+   "question": 2013,
+   "text": "64",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20132,
+  "fields": {
+   "question": 2013,
+   "text": "128",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20133,
+  "fields": {
+   "question": 2013,
+   "text": "16",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2014,
+  "fields": {
+   "category": 2,
+   "text": "IPv6 adresleri kaç bittir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20140,
+  "fields": {
+   "question": 2014,
+   "text": "128",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20141,
+  "fields": {
+   "question": 2014,
+   "text": "64",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20142,
+  "fields": {
+   "question": 2014,
+   "text": "32",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20143,
+  "fields": {
+   "question": 2014,
+   "text": "256",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2015,
+  "fields": {
+   "category": 2,
+   "text": "DNS'in görevi nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20150,
+  "fields": {
+   "question": 2015,
+   "text": "Alan adlarını IP adreslerine çevirmek",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20151,
+  "fields": {
+   "question": 2015,
+   "text": "Dosyaları sıkıştırmak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20152,
+  "fields": {
+   "question": 2015,
+   "text": "Ağ kartını sürmek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20153,
+  "fields": {
+   "question": 2015,
+   "text": "E-posta şifrelemek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2016,
+  "fields": {
+   "category": 2,
+   "text": "Aşağıdakilerden hangisi bir işletim sistemi değildir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20160,
+  "fields": {
+   "question": 2016,
+   "text": "Python",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20161,
+  "fields": {
+   "question": 2016,
+   "text": "Linux",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20162,
+  "fields": {
+   "question": 2016,
+   "text": "Windows",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20163,
+  "fields": {
+   "question": 2016,
+   "text": "macOS",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2017,
+  "fields": {
+   "category": 2,
+   "text": "İş parçacığı (thread) nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20170,
+  "fields": {
+   "question": 2017,
+   "text": "Bir işlem içinde çalışan hafif yürütme birimi",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20171,
+  "fields": {
+   "question": 2017,
+   "text": "Bir tür bellek kartı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20172,
+  "fields": {
+   "question": 2017,
+   "text": "Ağ protokolü",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20173,
+  "fields": {
+   "question": 2017,
+   "text": "Dosya biçimi",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2018,
+  "fields": {
+   "category": 2,
+   "text": "Kilitlenme (deadlock) nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20180,
+  "fields": {
+   "question": 2018,
+   "text": "İşlemlerin birbirinin kaynağını sonsuza dek beklemesi",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20181,
+  "fields": {
+   "question": 2018,
+   "text": "Bilgisayarın aşırı ısınması",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20182,
+  "fields": {
+   "question": 2018,
+   "text": "Disk dolması",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20183,
+  "fields": {
+   "question": 2018,
+   "text": "Ağ bağlantısının kopması",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2019,
+  "fields": {
+   "category": 2,
+   "text": "SSD'nin HDD'den temel farkı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20190,
+  "fields": {
+   "question": 2019,
+   "text": "Hareketli mekanik parçası yoktur",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20191,
+  "fields": {
+   "question": 2019,
+   "text": "Manyetik plaka kullanır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20192,
+  "fields": {
+   "question": 2019,
+   "text": "Yalnızca okunabilir",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20193,
+  "fields": {
+   "question": 2019,
+   "text": "Elektrik gerektirmez",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2020,
+  "fields": {
+   "category": 2,
+   "text": "GPU özellikle hangi tür işlerde güçlüdür?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20200,
+  "fields": {
+   "question": 2020,
+   "text": "Çok sayıda paralel hesaplamada",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20201,
+  "fields": {
+   "question": 2020,
+   "text": "Dosya yedeklemede",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20202,
+  "fields": {
+   "question": 2020,
+   "text": "Ağ yönlendirmede",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20203,
+  "fields": {
+   "question": 2020,
+   "text": "Ses kaydında",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2021,
+  "fields": {
+   "category": 2,
+   "text": "Moore yasası neyi öngörür?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20210,
+  "fields": {
+   "question": 2021,
+   "text": "Çipteki transistör sayısının yaklaşık iki yılda ikiye katlanmasını",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20211,
+  "fields": {
+   "question": 2021,
+   "text": "İnternet hızının her yıl artmasını",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20212,
+  "fields": {
+   "question": 2021,
+   "text": "Bellek fiyatlarının sabit kalmasını",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20213,
+  "fields": {
+   "question": 2021,
+   "text": "İşlemci boyutunun küçülmeyeceğini",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2022,
+  "fields": {
+   "category": 2,
+   "text": "Program ve verinin aynı bellekte tutulduğu bilgisayar mimarisi hangisidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20220,
+  "fields": {
+   "question": 2022,
+   "text": "Von Neumann",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20221,
+  "fields": {
+   "question": 2022,
+   "text": "Harvard",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20222,
+  "fields": {
+   "question": 2022,
+   "text": "RISC",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20223,
+  "fields": {
+   "question": 2022,
+   "text": "Pipeline",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2023,
+  "fields": {
+   "category": 2,
+   "text": "AND kapısı hangi durumda 1 çıktısı verir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20230,
+  "fields": {
+   "question": 2023,
+   "text": "Her iki girişi de 1 ise",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20231,
+  "fields": {
+   "question": 2023,
+   "text": "Girişlerden biri 1 ise",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20232,
+  "fields": {
+   "question": 2023,
+   "text": "Her iki girişi de 0 ise",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20233,
+  "fields": {
+   "question": 2023,
+   "text": "Girişler farklıysa",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2024,
+  "fields": {
+   "category": 2,
+   "text": "XOR kapısı hangi durumda 1 çıktısı verir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20240,
+  "fields": {
+   "question": 2024,
+   "text": "Girişler birbirinden farklıysa",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20241,
+  "fields": {
+   "question": 2024,
+   "text": "Girişler aynıysa",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20242,
+  "fields": {
+   "question": 2024,
+   "text": "Her iki giriş de 0 ise",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20243,
+  "fields": {
+   "question": 2024,
+   "text": "Her zaman",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2025,
+  "fields": {
+   "category": 2,
+   "text": "2 üzeri 10 kaçtır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20250,
+  "fields": {
+   "question": 2025,
+   "text": "1024",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20251,
+  "fields": {
+   "question": 2025,
+   "text": "512",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20252,
+  "fields": {
+   "question": 2025,
+   "text": "1000",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20253,
+  "fields": {
+   "question": 2025,
+   "text": "2048",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2026,
+  "fields": {
+   "category": 2,
+   "text": "Derleyici (compiler) ne yapar?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20260,
+  "fields": {
+   "question": 2026,
+   "text": "Kaynak kodu makine koduna çevirir",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20261,
+  "fields": {
+   "question": 2026,
+   "text": "Programı hızlandırır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20262,
+  "fields": {
+   "question": 2026,
+   "text": "Ağ trafiğini izler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20263,
+  "fields": {
+   "question": 2026,
+   "text": "Dosyaları sıkıştırır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2027,
+  "fields": {
+   "category": 2,
+   "text": "İşlemci önbelleğinin (cache) amacı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20270,
+  "fields": {
+   "question": 2027,
+   "text": "Sık kullanılan verilere hızlı erişim sağlamak",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20271,
+  "fields": {
+   "question": 2027,
+   "text": "Veriyi kalıcı saklamak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20272,
+  "fields": {
+   "question": 2027,
+   "text": "Ekran görüntüsü üretmek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20273,
+  "fields": {
+   "question": 2027,
+   "text": "Ağ hızını artırmak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2028,
+  "fields": {
+   "category": 2,
+   "text": "Sanal bellek ne işe yarar?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20280,
+  "fields": {
+   "question": 2028,
+   "text": "RAM yetersizken diskin bir kısmını bellek gibi kullanır",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20281,
+  "fields": {
+   "question": 2028,
+   "text": "Ekran kartı belleğini artırır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20282,
+  "fields": {
+   "question": 2028,
+   "text": "Verileri şifreler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20283,
+  "fields": {
+   "question": 2028,
+   "text": "İşlemciyi soğutur",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2029,
+  "fields": {
+   "category": 2,
+   "text": "İyi tasarlanmış bir hash tablosunda ortalama arama zamanı nedir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20290,
+  "fields": {
+   "question": 2029,
+   "text": "O(1)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20291,
+  "fields": {
+   "question": 2029,
+   "text": "O(n)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20292,
+  "fields": {
+   "question": 2029,
+   "text": "O(log n)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20293,
+  "fields": {
+   "question": 2029,
+   "text": "O(n²)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2030,
+  "fields": {
+   "category": 2,
+   "text": "Ağaç veri yapısında en üstteki düğüme ne denir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20300,
+  "fields": {
+   "question": 2030,
+   "text": "Kök (root)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20301,
+  "fields": {
+   "question": 2030,
+   "text": "Yaprak (leaf)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20302,
+  "fields": {
+   "question": 2030,
+   "text": "Dal (branch)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20303,
+  "fields": {
+   "question": 2030,
+   "text": "Sap (stem)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2031,
+  "fields": {
+   "category": 2,
+   "text": "Ağırlıksız bir grafta iki düğüm arasındaki en kısa yolu bulmak için hangi arama uygundur?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20310,
+  "fields": {
+   "question": 2031,
+   "text": "Genişlik öncelikli arama (BFS)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20311,
+  "fields": {
+   "question": 2031,
+   "text": "Derinlik öncelikli arama (DFS)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20312,
+  "fields": {
+   "question": 2031,
+   "text": "Hızlı sıralama",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20313,
+  "fields": {
+   "question": 2031,
+   "text": "İkili arama",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2032,
+  "fields": {
+   "category": 2,
+   "text": "Dijkstra algoritması ne bulur?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20320,
+  "fields": {
+   "question": 2032,
+   "text": "Ağırlıklı grafta en kısa yolu",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20321,
+  "fields": {
+   "question": 2032,
+   "text": "Dizideki en büyük sayıyı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20322,
+  "fields": {
+   "question": 2032,
+   "text": "Metindeki kelime sayısını",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20323,
+  "fields": {
+   "question": 2032,
+   "text": "Ağ trafiğindeki saldırıları",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2033,
+  "fields": {
+   "category": 2,
+   "text": "MAC adresi nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20330,
+  "fields": {
+   "question": 2033,
+   "text": "Ağ kartının donanım kimliği",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20331,
+  "fields": {
+   "question": 2033,
+   "text": "İnternet sağlayıcı numarası",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20332,
+  "fields": {
+   "question": 2033,
+   "text": "Web sitesi adı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20333,
+  "fields": {
+   "question": 2033,
+   "text": "Kullanıcının parolası",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2034,
+  "fields": {
+   "category": 2,
+   "text": "Yönlendirici (router) temel olarak ne yapar?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20340,
+  "fields": {
+   "question": 2034,
+   "text": "Ağlar arasında paketleri yönlendirir",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20341,
+  "fields": {
+   "question": 2034,
+   "text": "Yazıcıdan çıktı alır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20342,
+  "fields": {
+   "question": 2034,
+   "text": "Ses kaydeder",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20343,
+  "fields": {
+   "question": 2034,
+   "text": "Dosyaları sıkıştırır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2035,
+  "fields": {
+   "category": 2,
+   "text": "Güvenlik duvarı (firewall) ne yapar?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20350,
+  "fields": {
+   "question": 2035,
+   "text": "Ağ trafiğini kurallara göre filtreler",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20351,
+  "fields": {
+   "question": 2035,
+   "text": "Ekranı korur",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20352,
+  "fields": {
+   "question": 2035,
+   "text": "Kodu derler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20353,
+  "fields": {
+   "question": 2035,
+   "text": "Disk temizler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2036,
+  "fields": {
+   "category": 2,
+   "text": "Aşağıdakilerden hangisi bir ağ protokolü değildir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20360,
+  "fields": {
+   "question": 2036,
+   "text": "JPEG",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20361,
+  "fields": {
+   "question": 2036,
+   "text": "SSH",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20362,
+  "fields": {
+   "question": 2036,
+   "text": "FTP",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20363,
+  "fields": {
+   "question": 2036,
+   "text": "SMTP",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2037,
+  "fields": {
+   "category": 2,
+   "text": "UDP'nin TCP'den temel farkı nedir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20370,
+  "fields": {
+   "question": 2037,
+   "text": "Bağlantısızdır ve teslim garantisi vermez",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20371,
+  "fields": {
+   "question": 2037,
+   "text": "Yalnızca şifreli çalışır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20372,
+  "fields": {
+   "question": 2037,
+   "text": "Sadece yerel ağda kullanılır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20373,
+  "fields": {
+   "question": 2037,
+   "text": "Daha fazla bayt taşır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2038,
+  "fields": {
+   "category": 2,
+   "text": "RAID 1 yapılandırması ne yapar?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20380,
+  "fields": {
+   "question": 2038,
+   "text": "Verileri iki diske yansıtarak (mirroring) saklar",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20381,
+  "fields": {
+   "question": 2038,
+   "text": "Verileri bölerek tek diske yazar",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20382,
+  "fields": {
+   "question": 2038,
+   "text": "Diskleri sıkıştırır",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20383,
+  "fields": {
+   "question": 2038,
+   "text": "Diski şifreler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2039,
+  "fields": {
+   "category": 2,
+   "text": "Unicode standardının amacı nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20390,
+  "fields": {
+   "question": 2039,
+   "text": "Dünyadaki yazı sistemlerini tek bir standartta kodlamak",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20391,
+  "fields": {
+   "question": 2039,
+   "text": "Görüntüleri sıkıştırmak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20392,
+  "fields": {
+   "question": 2039,
+   "text": "Ağ adreslerini belirlemek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20393,
+  "fields": {
+   "question": 2039,
+   "text": "Ses dosyalarını kodlamak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 2040,
+  "fields": {
+   "category": 2,
+   "text": "World Wide Web'i (WWW) kim icat etmiştir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20400,
+  "fields": {
+   "question": 2040,
+   "text": "Tim Berners-Lee",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20401,
+  "fields": {
+   "question": 2040,
+   "text": "Bill Gates",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20402,
+  "fields": {
+   "question": 2040,
+   "text": "Linus Torvalds",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 20403,
+  "fields": {
+   "question": 2040,
+   "text": "Steve Wozniak",
+   "is_correct": false
+  }
+ }
+]

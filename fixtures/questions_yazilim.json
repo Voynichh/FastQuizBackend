@@ -1,0 +1,1962 @@
+[
+ {
+  "model": "quiz.question",
+  "pk": 1001,
+  "fields": {
+   "category": 1,
+   "text": "Python'da liste (list) hangi parantezlerle tanımlanır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10010,
+  "fields": {
+   "question": 1001,
+   "text": "[ ]",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10011,
+  "fields": {
+   "question": 1001,
+   "text": "( )",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10012,
+  "fields": {
+   "question": 1001,
+   "text": "{ }",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10013,
+  "fields": {
+   "question": 1001,
+   "text": "< >",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1002,
+  "fields": {
+   "category": 1,
+   "text": "Git'te yapılan değişiklikleri yerel depoya kaydeden komut hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10020,
+  "fields": {
+   "question": 1002,
+   "text": "git commit",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10021,
+  "fields": {
+   "question": 1002,
+   "text": "git push",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10022,
+  "fields": {
+   "question": 1002,
+   "text": "git clone",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10023,
+  "fields": {
+   "question": 1002,
+   "text": "git fetch",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1003,
+  "fields": {
+   "category": 1,
+   "text": "HTML'in açılımı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10030,
+  "fields": {
+   "question": 1003,
+   "text": "HyperText Markup Language",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10031,
+  "fields": {
+   "question": 1003,
+   "text": "High Tech Modern Language",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10032,
+  "fields": {
+   "question": 1003,
+   "text": "Hyper Transfer Markup Language",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10033,
+  "fields": {
+   "question": 1003,
+   "text": "HyperText Machine Language",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1004,
+  "fields": {
+   "category": 1,
+   "text": "Web sayfalarının görünümünü (stilini) belirleyen dil hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10040,
+  "fields": {
+   "question": 1004,
+   "text": "CSS",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10041,
+  "fields": {
+   "question": 1004,
+   "text": "SQL",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10042,
+  "fields": {
+   "question": 1004,
+   "text": "XML",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10043,
+  "fields": {
+   "question": 1004,
+   "text": "JSON",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1005,
+  "fields": {
+   "category": 1,
+   "text": "JavaScript'te sonradan yeniden atanamayan değişken hangi anahtar kelimeyle tanımlanır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10050,
+  "fields": {
+   "question": 1005,
+   "text": "const",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10051,
+  "fields": {
+   "question": 1005,
+   "text": "var",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10052,
+  "fields": {
+   "question": 1005,
+   "text": "let",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10053,
+  "fields": {
+   "question": 1005,
+   "text": "static",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1006,
+  "fields": {
+   "category": 1,
+   "text": "SQL'de tablodan veri okumak için hangi komut kullanılır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10060,
+  "fields": {
+   "question": 1006,
+   "text": "SELECT",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10061,
+  "fields": {
+   "question": 1006,
+   "text": "INSERT",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10062,
+  "fields": {
+   "question": 1006,
+   "text": "UPDATE",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10063,
+  "fields": {
+   "question": 1006,
+   "text": "DELETE",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1007,
+  "fields": {
+   "category": 1,
+   "text": "Java dilini ilk geliştiren şirket hangisidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10070,
+  "fields": {
+   "question": 1007,
+   "text": "Sun Microsystems",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10071,
+  "fields": {
+   "question": 1007,
+   "text": "Microsoft",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10072,
+  "fields": {
+   "question": 1007,
+   "text": "Apple",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10073,
+  "fields": {
+   "question": 1007,
+   "text": "IBM",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1008,
+  "fields": {
+   "category": 1,
+   "text": "Linux çekirdeğini ilk kim yazmıştır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10080,
+  "fields": {
+   "question": 1008,
+   "text": "Linus Torvalds",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10081,
+  "fields": {
+   "question": 1008,
+   "text": "Bill Gates",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10082,
+  "fields": {
+   "question": 1008,
+   "text": "Dennis Ritchie",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10083,
+  "fields": {
+   "question": 1008,
+   "text": "Steve Jobs",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1009,
+  "fields": {
+   "category": 1,
+   "text": "Python adı neyden gelir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10090,
+  "fields": {
+   "question": 1009,
+   "text": "Monty Python komedi grubundan",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10091,
+  "fields": {
+   "question": 1009,
+   "text": "Piton yılanından",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10092,
+  "fields": {
+   "question": 1009,
+   "text": "Bir yazılımcının soyadından",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10093,
+  "fields": {
+   "question": 1009,
+   "text": "Bir Yunan tanrısından",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1010,
+  "fields": {
+   "category": 1,
+   "text": "Aşağıdakilerden hangisi dağıtık bir sürüm kontrol sistemidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10100,
+  "fields": {
+   "question": 1010,
+   "text": "Git",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10101,
+  "fields": {
+   "question": 1010,
+   "text": "Docker",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10102,
+  "fields": {
+   "question": 1010,
+   "text": "npm",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10103,
+  "fields": {
+   "question": 1010,
+   "text": "Jira",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1011,
+  "fields": {
+   "category": 1,
+   "text": "REST API'de bir kaynağı silmek için hangi HTTP metodu kullanılır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10110,
+  "fields": {
+   "question": 1011,
+   "text": "DELETE",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10111,
+  "fields": {
+   "question": 1011,
+   "text": "REMOVE",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10112,
+  "fields": {
+   "question": 1011,
+   "text": "DROP",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10113,
+  "fields": {
+   "question": 1011,
+   "text": "CUT",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1012,
+  "fields": {
+   "category": 1,
+   "text": "HTTP 404 durum kodu ne anlama gelir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10120,
+  "fields": {
+   "question": 1012,
+   "text": "Sayfa bulunamadı",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10121,
+  "fields": {
+   "question": 1012,
+   "text": "Sunucu hatası",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10122,
+  "fields": {
+   "question": 1012,
+   "text": "Yetkisiz erişim",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10123,
+  "fields": {
+   "question": 1012,
+   "text": "Yönlendirme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1013,
+  "fields": {
+   "category": 1,
+   "text": "HTTP 500 durum kodu ne anlama gelir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10130,
+  "fields": {
+   "question": 1013,
+   "text": "Sunucu tarafında hata",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10131,
+  "fields": {
+   "question": 1013,
+   "text": "Sayfa bulunamadı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10132,
+  "fields": {
+   "question": 1013,
+   "text": "İstek başarılı",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10133,
+  "fields": {
+   "question": 1013,
+   "text": "Erişim yasak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1014,
+  "fields": {
+   "category": 1,
+   "text": "JSON'un açılımı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10140,
+  "fields": {
+   "question": 1014,
+   "text": "JavaScript Object Notation",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10141,
+  "fields": {
+   "question": 1014,
+   "text": "Java Standard Object Notation",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10142,
+  "fields": {
+   "question": 1014,
+   "text": "JavaScript Online Network",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10143,
+  "fields": {
+   "question": 1014,
+   "text": "Joint Script Object Name",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1015,
+  "fields": {
+   "category": 1,
+   "text": "Web tarayıcılarının doğrudan çalıştırdığı betik dili hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10150,
+  "fields": {
+   "question": 1015,
+   "text": "JavaScript",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10151,
+  "fields": {
+   "question": 1015,
+   "text": "Python",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10152,
+  "fields": {
+   "question": 1015,
+   "text": "Ruby",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10153,
+  "fields": {
+   "question": 1015,
+   "text": "PHP",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1016,
+  "fields": {
+   "category": 1,
+   "text": "Bir fonksiyonun kendi kendini çağırmasına ne denir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10160,
+  "fields": {
+   "question": 1016,
+   "text": "Özyineleme (recursion)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10161,
+  "fields": {
+   "question": 1016,
+   "text": "Kalıtım",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10162,
+  "fields": {
+   "question": 1016,
+   "text": "Çok biçimlilik",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10163,
+  "fields": {
+   "question": 1016,
+   "text": "Derleme",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1017,
+  "fields": {
+   "category": 1,
+   "text": "Nesne yönelimli programlamada \"kalıtım\" kavramının İngilizcesi nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10170,
+  "fields": {
+   "question": 1017,
+   "text": "Inheritance",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10171,
+  "fields": {
+   "question": 1017,
+   "text": "Encapsulation",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10172,
+  "fields": {
+   "question": 1017,
+   "text": "Polymorphism",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10173,
+  "fields": {
+   "question": 1017,
+   "text": "Abstraction",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1018,
+  "fields": {
+   "category": 1,
+   "text": "Aşağıdakilerden hangisi nesne yönelimli programlamanın temel ilkelerinden biri değildir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10180,
+  "fields": {
+   "question": 1018,
+   "text": "Compilation",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10181,
+  "fields": {
+   "question": 1018,
+   "text": "Encapsulation",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10182,
+  "fields": {
+   "question": 1018,
+   "text": "Inheritance",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10183,
+  "fields": {
+   "question": 1018,
+   "text": "Polymorphism",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1019,
+  "fields": {
+   "category": 1,
+   "text": "Git'te yeni bir dal oluşturup ona geçmek için hangi komut kullanılır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10190,
+  "fields": {
+   "question": 1019,
+   "text": "git checkout -b",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10191,
+  "fields": {
+   "question": 1019,
+   "text": "git branch -d",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10192,
+  "fields": {
+   "question": 1019,
+   "text": "git merge",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10193,
+  "fields": {
+   "question": 1019,
+   "text": "git stash",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1020,
+  "fields": {
+   "category": 1,
+   "text": "Değeri oluşturulduktan sonra değiştirilemeyen veriye ne ad verilir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10200,
+  "fields": {
+   "question": 1020,
+   "text": "Değişmez (immutable)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10201,
+  "fields": {
+   "question": 1020,
+   "text": "Uçucu (volatile)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10202,
+  "fields": {
+   "question": 1020,
+   "text": "Dinamik (dynamic)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10203,
+  "fields": {
+   "question": 1020,
+   "text": "Statik (static)",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1021,
+  "fields": {
+   "category": 1,
+   "text": "Apple'ın iOS ve macOS uygulamaları için geliştirdiği programlama dili hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10210,
+  "fields": {
+   "question": 1021,
+   "text": "Swift",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10211,
+  "fields": {
+   "question": 1021,
+   "text": "Kotlin",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10212,
+  "fields": {
+   "question": 1021,
+   "text": "Dart",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10213,
+  "fields": {
+   "question": 1021,
+   "text": "Go",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1022,
+  "fields": {
+   "category": 1,
+   "text": "Android geliştirmede Google'ın önerdiği modern programlama dili hangisidir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10220,
+  "fields": {
+   "question": 1022,
+   "text": "Kotlin",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10221,
+  "fields": {
+   "question": 1022,
+   "text": "Swift",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10222,
+  "fields": {
+   "question": 1022,
+   "text": "Objective-C",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10223,
+  "fields": {
+   "question": 1022,
+   "text": "Perl",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1023,
+  "fields": {
+   "category": 1,
+   "text": "Vue.js çatısını kim oluşturmuştur?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10230,
+  "fields": {
+   "question": 1023,
+   "text": "Evan You",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10231,
+  "fields": {
+   "question": 1023,
+   "text": "Dan Abramov",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10232,
+  "fields": {
+   "question": 1023,
+   "text": "Jordan Walke",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10233,
+  "fields": {
+   "question": 1023,
+   "text": "Rich Harris",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1024,
+  "fields": {
+   "category": 1,
+   "text": "React kütüphanesini hangi şirket geliştirmiştir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10240,
+  "fields": {
+   "question": 1024,
+   "text": "Meta (Facebook)",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10241,
+  "fields": {
+   "question": 1024,
+   "text": "Google",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10242,
+  "fields": {
+   "question": 1024,
+   "text": "Microsoft",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10243,
+  "fields": {
+   "question": 1024,
+   "text": "Twitter",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1025,
+  "fields": {
+   "category": 1,
+   "text": "Docker'ın temel amacı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10250,
+  "fields": {
+   "question": 1025,
+   "text": "Uygulamaları konteynerlerde çalıştırmak",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10251,
+  "fields": {
+   "question": 1025,
+   "text": "Veritabanı yedeği almak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10252,
+  "fields": {
+   "question": 1025,
+   "text": "Arayüz tasarlamak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10253,
+  "fields": {
+   "question": 1025,
+   "text": "Kod yorumlamak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1026,
+  "fields": {
+   "category": 1,
+   "text": "Algoritma analizinde Big O gösterimi neyi ifade eder?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10260,
+  "fields": {
+   "question": 1026,
+   "text": "Çalışma süresinin büyüme oranının üst sınırını",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10261,
+  "fields": {
+   "question": 1026,
+   "text": "Programdaki hata sayısını",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10262,
+  "fields": {
+   "question": 1026,
+   "text": "Dosya boyutunu",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10263,
+  "fields": {
+   "question": 1026,
+   "text": "Değişken sayısını",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1027,
+  "fields": {
+   "category": 1,
+   "text": "SQL'de iki tabloyu ortak bir sütun üzerinden birleştirmek için hangi ifade kullanılır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10270,
+  "fields": {
+   "question": 1027,
+   "text": "JOIN",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10271,
+  "fields": {
+   "question": 1027,
+   "text": "SPLIT",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10272,
+  "fields": {
+   "question": 1027,
+   "text": "LINK",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10273,
+  "fields": {
+   "question": 1027,
+   "text": "ATTACH",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1028,
+  "fields": {
+   "category": 1,
+   "text": "Aşağıdakilerden hangisi bir NoSQL veritabanıdır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10280,
+  "fields": {
+   "question": 1028,
+   "text": "MongoDB",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10281,
+  "fields": {
+   "question": 1028,
+   "text": "PostgreSQL",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10282,
+  "fields": {
+   "question": 1028,
+   "text": "MySQL",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10283,
+  "fields": {
+   "question": 1028,
+   "text": "SQLite",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1029,
+  "fields": {
+   "category": 1,
+   "text": "Aşağıdakilerden hangisi ilişkisel bir veritabanıdır?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10290,
+  "fields": {
+   "question": 1029,
+   "text": "PostgreSQL",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10291,
+  "fields": {
+   "question": 1029,
+   "text": "Redis",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10292,
+  "fields": {
+   "question": 1029,
+   "text": "MongoDB",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10293,
+  "fields": {
+   "question": 1029,
+   "text": "Cassandra",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1030,
+  "fields": {
+   "category": 1,
+   "text": "Git'te uzak depodaki değişiklikleri alıp yerel dalla birleştiren komut hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10300,
+  "fields": {
+   "question": 1030,
+   "text": "git pull",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10301,
+  "fields": {
+   "question": 1030,
+   "text": "git add",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10302,
+  "fields": {
+   "question": 1030,
+   "text": "git init",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10303,
+  "fields": {
+   "question": 1030,
+   "text": "git log",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1031,
+  "fields": {
+   "category": 1,
+   "text": "API'nin açılımı nedir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10310,
+  "fields": {
+   "question": 1031,
+   "text": "Application Programming Interface",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10311,
+  "fields": {
+   "question": 1031,
+   "text": "Applied Program Integration",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10312,
+  "fields": {
+   "question": 1031,
+   "text": "Automated Programming Input",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10313,
+  "fields": {
+   "question": 1031,
+   "text": "Advanced Protocol Interface",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1032,
+  "fields": {
+   "category": 1,
+   "text": "Git depolarını barındıran ve iş birliği sağlayan hizmet hangisidir?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10320,
+  "fields": {
+   "question": 1032,
+   "text": "GitHub",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10321,
+  "fields": {
+   "question": 1032,
+   "text": "Photoshop",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10322,
+  "fields": {
+   "question": 1032,
+   "text": "Excel",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10323,
+  "fields": {
+   "question": 1032,
+   "text": "Notion",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1033,
+  "fields": {
+   "category": 1,
+   "text": "TypeScript dilini hangi şirket geliştirmiştir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10330,
+  "fields": {
+   "question": 1033,
+   "text": "Microsoft",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10331,
+  "fields": {
+   "question": 1033,
+   "text": "Google",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10332,
+  "fields": {
+   "question": 1033,
+   "text": "Mozilla",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10333,
+  "fields": {
+   "question": 1033,
+   "text": "Amazon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1034,
+  "fields": {
+   "category": 1,
+   "text": "Rust dilini ilk başlatan kuruluş hangisidir?",
+   "difficulty": 3,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10340,
+  "fields": {
+   "question": 1034,
+   "text": "Mozilla",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10341,
+  "fields": {
+   "question": 1034,
+   "text": "Google",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10342,
+  "fields": {
+   "question": 1034,
+   "text": "Apple",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10343,
+  "fields": {
+   "question": 1034,
+   "text": "Intel",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1035,
+  "fields": {
+   "category": 1,
+   "text": "Go (Golang) dilini hangi şirket geliştirmiştir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10350,
+  "fields": {
+   "question": 1035,
+   "text": "Google",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10351,
+  "fields": {
+   "question": 1035,
+   "text": "Meta",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10352,
+  "fields": {
+   "question": 1035,
+   "text": "Amazon",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10353,
+  "fields": {
+   "question": 1035,
+   "text": "Netflix",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1036,
+  "fields": {
+   "category": 1,
+   "text": "Python'da girinti (indentation) ne işe yarar?",
+   "difficulty": 1,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10360,
+  "fields": {
+   "question": 1036,
+   "text": "Kod bloklarını belirler",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10361,
+  "fields": {
+   "question": 1036,
+   "text": "Yorum satırı oluşturur",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10362,
+  "fields": {
+   "question": 1036,
+   "text": "Değişken tanımlar",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10363,
+  "fields": {
+   "question": 1036,
+   "text": "Dosya adını belirler",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1037,
+  "fields": {
+   "category": 1,
+   "text": "C programlama dilini kim geliştirmiştir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10370,
+  "fields": {
+   "question": 1037,
+   "text": "Dennis Ritchie",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10371,
+  "fields": {
+   "question": 1037,
+   "text": "Bjarne Stroustrup",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10372,
+  "fields": {
+   "question": 1037,
+   "text": "James Gosling",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10373,
+  "fields": {
+   "question": 1037,
+   "text": "Guido van Rossum",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1038,
+  "fields": {
+   "category": 1,
+   "text": "James Gosling hangi programlama dilinin yaratıcısı olarak bilinir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10380,
+  "fields": {
+   "question": 1038,
+   "text": "Java",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10381,
+  "fields": {
+   "question": 1038,
+   "text": "C++",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10382,
+  "fields": {
+   "question": 1038,
+   "text": "Python",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10383,
+  "fields": {
+   "question": 1038,
+   "text": "PHP",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1039,
+  "fields": {
+   "category": 1,
+   "text": "Birim test (unit test) nedir?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10390,
+  "fields": {
+   "question": 1039,
+   "text": "Kodun küçük parçalarını tek tek test etmek",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10391,
+  "fields": {
+   "question": 1039,
+   "text": "Tüm sistemi gerçek kullanıcıyla denemek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10392,
+  "fields": {
+   "question": 1039,
+   "text": "Sunucu yükünü ölçmek",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10393,
+  "fields": {
+   "question": 1039,
+   "text": "Veritabanı yedeği almak",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.question",
+  "pk": 1040,
+  "fields": {
+   "category": 1,
+   "text": "CI/CD'deki \"CI\" neyin kısaltmasıdır?",
+   "difficulty": 2,
+   "explanation": null,
+   "is_active": true,
+   "created_at": "2026-10-17T00:00:00Z",
+   "updated_at": "2026-10-17T00:00:00Z"
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10400,
+  "fields": {
+   "question": 1040,
+   "text": "Continuous Integration",
+   "is_correct": true
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10401,
+  "fields": {
+   "question": 1040,
+   "text": "Code Inspection",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10402,
+  "fields": {
+   "question": 1040,
+   "text": "Central Index",
+   "is_correct": false
+  }
+ },
+ {
+  "model": "quiz.choice",
+  "pk": 10403,
+  "fields": {
+   "question": 1040,
+   "text": "Console Input",
+   "is_correct": false
+  }
+ }
+]
