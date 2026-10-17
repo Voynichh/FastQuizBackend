@@ -36,5 +36,9 @@ Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanl�
 - Rate limit IP başınadır. Proxy arkasında `NUM_PROXIES` env'i doğru ayarlanmazsa (varsayılan boş = `X-Forwarded-For` başlığının tamamı) istemci başlığı taklit edebilir; App Platform'da gerçek hop sayısı doğrulanınca ayarla. 2+ instance'ta sayaçlar için paylaşımlı cache gerekir (Bölüm 11).
 - `abandoned` işaretleme tembeldir (oturuma bir sonraki istekte); süpürücü komut yok.
 
+## Deploy (sonraki oturum)
+Proje geneli deploy kararı ve panele girilecek değerler `..\CLAUDE.md` ("DEPLOY" bölümü) içinde. Özet: deploy `doctl` ile değil kullanıcı tarafından DigitalOcean web panelinden elle yapılacak; kullanıcı sıfırdan anlatım isteyecek. Başlamadan önce kullanıcıyla konuş, panel adımlarını alan alan anlat, kaynak/ücret oluşturan adımları kullanıcıya bırak. Prod ayarları `config/settings/prod.py`, Docker `Dockerfile`, referans `.do/app.yaml`.
+
 ## Durum
-Faz 0–3 tamam (iskelet, modeller, admin, docker, CI, 5×40 soru, API). Sorular insan kontrolü bekliyor. Sıradaki: Faz 4 (frontend, `..\FastQuizFrontend`). Frontend tiplerini `/api/v1/schema/` çıktısından üret.
+Faz 0–3 tamam (iskelet, modeller, admin, docker, CI, 5×40 soru, API) ve frontend Faz 4–6 ile bağlandı. Sorular insan kontrolü bekliyor. Sıradaki: Faz 7 (E2E, erişilebilirlik, deploy, Sentry), sonra Faz 8 (mobil).
+Admin yolu `/yonetim/` (`/admin/` değil).
