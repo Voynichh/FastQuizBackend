@@ -8,14 +8,14 @@
 
 **Fast Quiz**, her sorunun yalnızca **5 saniyede** cevaplanabildiği, üyeliksiz bir bilgi yarışması oyunudur. Bu repo oyunun REST API'sidir; süre, puan ve sıralama kurallarının tamamı burada, sunucu tarafında işler.
 
-> Web arayüzü: **[FastQuizFrontend](https://github.com/Voynichh/FastQuizFrontend)** (Vue 3 + TypeScript). Mobil (Capacitor) aynı API'yi kullanacak şekilde tasarlandı.
+> Web arayüzü: **[FastQuizFrontend](https://github.com/Voynichh/FastQuizFrontend)** (Vue 3 + TypeScript).
 
 ## Öne çıkanlar
 
 - **Sunucu tarafı zamanlayıcı:** Süre, soru istemciye verildiği anda (`served_at`) başlar ve sunucuda ölçülür; istemci sayacı yalnızca görseldir. 500 ms ağ toleransı vardır, süresi geçen cevap `timeout` sayılır.
 - **Hile önleme:** Doğru şık soru yanıtında asla yer almaz, sorular tek tek verilir, her soruya tek cevap kabul edilir, skor kaydında puan istemciden değil oturumdan okunur.
 - **Eşzamanlılık güvenliği:** Cevap kaydı `SELECT … FOR UPDATE` ile kilitlenen transaction içinde yapılır (aynı soruya eşzamanlı iki istek → tek kayıt; thread'li testle kanıtlı).
-- **Üyeliksiz kimlik:** Oturum başına `secrets.token_urlsafe(32)` token'ı, veritabanında yalnızca SHA-256 özeti; `hmac.compare_digest` ile karşılaştırma. Çerez ve CSRF yok, mobil istemciyle aynı yöntem.
+- **Üyeliksiz kimlik:** Oturum başına `secrets.token_urlsafe(32)` token'ı, veritabanında yalnızca SHA-256 özeti; `hmac.compare_digest` ile karşılaştırma. Çerez ve CSRF yok (durumsuz API).
 - **Hız bonuslu puan:** Doğru cevap = 100 + kalan süreye orantılı en fazla 100 bonus (tamsayı aritmetiğiyle, `.5` yukarı yuvarlanır).
 - **Skor tablosu:** Kategori bazlı ve genel; sıralama puan ↓, ortalama süre ↑, kayıt zamanı ↑. Bileşik indekslerle okunur.
 - **Güvenli takma ad:** Uzunluk/karakter kuralları ve Türkçe + İngilizce küfür filtresi (ı/i, ş/s, leet, harf aralığı ve tekrar numaralarına dayanıklı; "Sikke", "Dickens" gibi masum adlar geçer).

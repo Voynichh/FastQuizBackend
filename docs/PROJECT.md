@@ -2,7 +2,7 @@
 
 Oct 17, 2026 · @Someone
 
-> **Kapsam notu:** Bu doküman başlangıç planıdır. Canlıya alma (Bölüm 11'deki DigitalOcean dağıtımı, `.do/app.yaml`, Sentry, staging) ve **Django Admin yönetim paneli kapsam dışı bırakıldı** (soru içeriği fixture dosyalarından yönetilir); proje yerelde çalışan bir portföy projesidir. Güncel kararlar repoların `CLAUDE.md` dosyalarındadır.
+> **Kapsam notu:** Bu doküman başlangıç planıdır. Canlıya alma (Bölüm 11'deki DigitalOcean dağıtımı, `.do/app.yaml`, Sentry, staging) **Django Admin yönetim paneli** ve **mobil uygulama (Capacitor, Faz 8)** kapsam dışı bırakıldı (soru içeriği fixture dosyalarından yönetilir); proje yerelde çalışan bir portföy projesidir. Güncel kararlar repoların `CLAUDE.md` dosyalarındadır.
 
 ## 1. Proje Özeti
 

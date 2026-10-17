@@ -40,4 +40,4 @@ Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanl�
 Yerelde çalışan portföy projesi; **canlıya alma iptal edildi** (bkz. `..\CLAUDE.md`). `config/settings/prod.py`, `Dockerfile`, `gunicorn.conf.py` üretim benzeri çalışma için hazır duruyor ama kullanılmıyor; DigitalOcean/Sentry dosyaları kaldırıldı. `docker compose up --build` açılışta migrate + `seed_questions` (veritabanı boşsa) çalıştırır.
 
 ## Durum
-Faz 0–3 tamam, frontend Faz 4–6 ile bağlandı. Sorular insan kontrolü bekliyor. Sıradaki: mobil (Faz 8, frontend reposunda). Django Admin kaldırıldı (kullanıcı isteği); `auth`/`contenttypes` DRF için duruyor.
+Faz 0–3 tamam, frontend Faz 4–6 ile bağlandı. Sorular insan kontrolü bekliyor. Mobil uygulama iptal edildi; proje tamamlandı (isteğe bağlı: E2E, erişilebilirlik). Django Admin kaldırıldı (kullanıcı isteği); `auth`/`contenttypes` DRF için duruyor.
