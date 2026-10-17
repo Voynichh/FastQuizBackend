@@ -4,3 +4,4 @@ drf-spectacular==0.30.0
 psycopg[binary,pool]==3.3.6
 django-cors-headers==4.9.0
 django-environ==0.14.0
+drf-spectacular-sidecar==2026.10.1

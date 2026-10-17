@@ -26,5 +26,15 @@ docker compose up -d db
 ## Soru havuzu
 Kaynak: `fixtures/sources/<slug>.json` (`[soru, zorluk, doğru, yanlış1, yanlış2, yanlış3]`). Düzenledikten sonra `.venv\Scripts\python scripts/build_fixtures.py` ile `fixtures/questions_<slug>.json` yeniden üretilir (pk'ler sabit, `loaddata` tekrar çalıştırılabilir). Yeni soruyu listenin sonuna ekle. Yükleme: `loaddata fixtures/categories.json fixtures/questions_*.json`.
 
+## API notları (doküman Bölüm 6–7'ye ek kararlar)
+Şema/Swagger: `/api/v1/schema/`, `/api/v1/docs/` (statik dosyalar `drf-spectacular-sidecar` ile imajdan). Katmanlar: view → `services.py` → model; hata sınıfları `apps/common/exceptions.py`.
+- Ek hata kodları: `session_abandoned` (409, 10 dk hareketsizlik; `QUIZ_SESSION_IDLE_SECONDS`), `session_not_completed` (409, result/score tamamlanmamış oturumda), `category_unavailable` (409, havuzda `QUIZ_QUESTION_COUNT`'tan az geçerli soru), `forbidden`, `method_not_allowed`, `unsupported_media_type`, `server_error`.
+- Geç gelen cevap (`response_ms > limit + grace`) hata değil, 200 + `result: "timeout"` döner. `choice_id: null` her zaman timeout.
+- Puan bonusu yarım yukarı yuvarlanır (tamsayı aritmetiği). Ortalama süre: timeout = tam süre, diğerleri en fazla tam süre.
+- Sıralama: puan↓, ort. süre↑, `created_at`↑, `id`↑. `estimated_rank` kaydedilmemiş skorda eşitlikte sona koyar, kaydedilmişse gerçek sırayı verir.
+- `GET /sessions/{id}/current/` yanıtına ek olarak `total_score` döner (sayfa yenilemede skoru geri yüklemek için). Koleksiyon yanıtları sarılıdır: `{"categories": [...]}`, `{"category": slug|null, "entries": [...]}`.
+- Rate limit IP başınadır. Proxy arkasında `NUM_PROXIES` env'i doğru ayarlanmazsa (varsayılan boş = `X-Forwarded-For` başlığının tamamı) istemci başlığı taklit edebilir; App Platform'da gerçek hop sayısı doğrulanınca ayarla. 2+ instance'ta sayaçlar için paylaşımlı cache gerekir (Bölüm 11).
+- `abandoned` işaretleme tembeldir (oturuma bir sonraki istekte); süpürücü komut yok.
+
 ## Durum
-Faz 0–2 tamam (iskelet, modeller, admin, docker, CI, 5×40 soru). Sorular insan kontrolü bekliyor. Sıradaki: Faz 3 (API).
+Faz 0–3 tamam (iskelet, modeller, admin, docker, CI, 5×40 soru, API). Sorular insan kontrolü bekliyor. Sıradaki: Faz 4 (frontend, `..\FastQuizFrontend`). Frontend tiplerini `/api/v1/schema/` çıktısından üret.

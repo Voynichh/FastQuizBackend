@@ -2,6 +2,7 @@ import uuid
 
 from django.db import models
 from django.db.models import Q
+from django.utils import timezone
 
 
 class Category(models.Model):
@@ -99,6 +100,9 @@ class QuizSession(models.Model):
     empty_count = models.IntegerField(default=0)
     started_at = models.DateTimeField(auto_now_add=True)
     finished_at = models.DateTimeField(null=True, blank=True)
+    last_activity_at = models.DateTimeField(
+        default=timezone.now, help_text="Hareketsizlik (abandoned) kontrolü için"
+    )
 
     class Meta:
         verbose_name = "quiz oturumu"

@@ -29,7 +29,7 @@ class ScoreEntry(models.Model):
                 name="score_global_rank_idx",
             ),
         ]
-        ordering = ["-score", "avg_response_ms", "created_at"]
+        ordering = ["-score", "avg_response_ms", "created_at", "id"]
 
     def __str__(self):
         return f"{self.player_name}: {self.score}"

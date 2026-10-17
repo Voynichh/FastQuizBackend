@@ -17,9 +17,10 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default=[])
 
 # WhiteNoise: Admin ve Swagger UI statik dosyaları imajdan sunulur.
 MIDDLEWARE = [
-    MIDDLEWARE[0],
+    MIDDLEWARE[0],  # HealthCheckMiddleware en başta kalır
+    MIDDLEWARE[1],  # SecurityMiddleware
     "whitenoise.middleware.WhiteNoiseMiddleware",
-    *MIDDLEWARE[1:],
+    *MIDDLEWARE[2:],
 ]
 STORAGES = {
     "default": {"BACKEND": "django.core.files.storage.FileSystemStorage"},
