@@ -446,6 +446,20 @@ def test_cors_allows_session_headers(client):
     assert "x-client" in allowed
 
 
+def test_dev_cors_accepts_any_local_port_but_not_other_hosts(client):
+    """Vite portu değişse (5174, 5175...) de yerel arayüz API'ye ulaşabilmeli."""
+    for origin in ("http://localhost:5174", "http://127.0.0.1:5199", "http://[::1]:5180"):
+        response = client.get(f"{BASE}/categories/", HTTP_ORIGIN=origin)
+        assert response["Access-Control-Allow-Origin"] == origin
+    for origin in (
+        "http://evil.example",
+        "http://localhost.evil.example:5173",
+        "https://localhost:5173",
+    ):
+        response = client.get(f"{BASE}/categories/", HTTP_ORIGIN=origin)
+        assert "Access-Control-Allow-Origin" not in response
+
+
 # ---- rate limit ----
 
 
