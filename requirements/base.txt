@@ -1,7 +1,7 @@
 Django==6.1.2
 djangorestframework==3.18.3
 drf-spectacular==0.30.0
-psycopg[binary,pool]==3.3.6
+psycopg[binary,pool]==3.3.8
 django-cors-headers==4.9.0
 django-environ==0.14.0
 drf-spectacular-sidecar==2026.10.1
