@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # ---- build aşaması: bağımlılıklar ----
-FROM python:3.14-slim AS builder
+FROM python:3.15-slim AS builder
 # yerelde docker-compose "dev" verir
 ARG REQUIREMENTS=prod
 ENV PIP_NO_CACHE_DIR=1 PIP_DISABLE_PIP_VERSION_CHECK=1
@@ -11,7 +11,7 @@ RUN python -m venv /opt/venv \
  && /opt/venv/bin/pip install -r requirements/${REQUIREMENTS}.txt
 
 # ---- çalışma aşaması ----
-FROM python:3.14-slim AS runtime
+FROM python:3.15-slim AS runtime
 ARG REQUIREMENTS=prod
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
